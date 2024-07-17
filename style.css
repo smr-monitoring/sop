@@ -1,0 +1,103 @@
+p.caption {
+  color: #777;
+  margin-top: 10px;
+}
+p code {
+  white-space: inherit;
+}
+pre {
+  word-break: normal;
+  word-wrap: normal;
+}
+pre code {
+  white-space: inherit;
+}
+
+/* The next two rules make the horizontal line go straight across in top navbar */
+
+.summary > li:first-child {
+    height: 50px;
+    padding-top: 10px;
+    border-bottom: 1px solid rgba(0,0,0,.07);
+}
+
+.book .book-summary ul.summary li.divider {
+    height: 0px;
+}
+
+
+/*--- LOGO ---*/
+
+.toc-logo {
+  width: 190px !important;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.toc-logo img {
+  max-width: 100%;
+  margin-bottom: 10px;
+}
+
+.summary > li:first-child {
+  height: auto !important;
+}
+
+
+.book.with-summary .book-header.fixed {
+    left: 200px;
+}
+
+.book.with-summary .book-body {
+    left: 200px;
+}
+
+.book .book-summary {
+    width: 200px;
+}
+
+/*------------ TOC --------------*/
+
+.book .book-summary {
+  background: #F3F1E7 ;
+  border-right: none;
+}
+
+.summary a:hover {
+  color: #D9DA9E !important;
+}
+
+.book .book-summary ul.summary li.active>a { /*active TOC links*/
+  color: #A59F6D !important;
+  border-left: solid 4px;
+  border-color: #4379E1;
+  padding-left: 11px !important;
+}
+
+/*-----Body Links-------*/
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+  color: #4379E1;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+color: #D9DA9E; /* darker color when hovering */
+text-decoration: none;
+}
+
+.book.font-family-1 {
+  color: #474747;
+}
+
+h1, h2, h3, h4 {
+  color: #4379E1;
+}
+
+.title {
+  font-size: 3em !important;
+  color: #4379E1;
+ }
+
+.subtitle {
+  color: #A59F6D;
+}

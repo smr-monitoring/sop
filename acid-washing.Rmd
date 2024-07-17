@@ -1,0 +1,9 @@
+---
+title: "Acid-washing sample containers"
+output: 
+  html_document:
+    css: "style.css"
+---
+
+Procedures for acid-washing glass and plastic sample containers.
+
