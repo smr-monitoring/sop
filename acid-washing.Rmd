@@ -204,7 +204,7 @@ B: Wipe the fume hood and counter surfaces with a paper towel or absorbent pad a
 
 **15. Spills:** 
 
-A: In case of a spill outside of the fume hood: evacuate the area.  Immediately call ==474-5617 (EHSRM Hazmat), 474-7721 (UAF Dispatch)==, or 911 (if serious injury or exposure has occurred) to report the spill and request cleanup assistance.
+A: In case of a spill outside of the fume hood: evacuate the area.  Immediately call == 474-5617 (EHSRM Hazmat), 474-7721 (UAF Dispatch)==, or 911 (if serious injury or exposure has occurred) to report the spill and request cleanup assistance.
 
 B: In case of a spill inside the fume hood: 
 
