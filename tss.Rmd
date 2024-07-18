@@ -4,7 +4,8 @@ output:
   html_document:
     css: "style.css"
 ---
-### 1. SCOPE and APPLICATION
+### 1. SCOPE and APPLICATION 
+NOTE: May be inccorect instructions 
 
 **1.1** Gravimetric analysis is used to determine total suspended solids (TSS) and total volatile solids (TVS), also known as volatile suspended solids (VSS) using a four place analytical balance.
 
