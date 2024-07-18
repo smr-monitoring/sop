@@ -4,3 +4,5 @@ output:
   html_document:
     css: "style.css"
 ---
+
+This page details procedures for collecting concentrated phytoplankton samples using net tows.   

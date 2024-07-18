@@ -1,6 +1,14 @@
 ---
-title: "Onset HOBO MX2202 light/temperature logger programming, data processing, and retrieval"
+title: "Onset HOBO MX2202 light/temperature logger"
 output: 
   html_document:
     css: "style.css"
 ---
+
+### Programming
+
+### Deployment and retrieval
+
+### Data processing
+
+### Care and maintenance
