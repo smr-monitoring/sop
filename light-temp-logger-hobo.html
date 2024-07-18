@@ -252,87 +252,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">p.caption {
-color: #777;
-margin-top: 10px;
-}
-p code {
-white-space: inherit;
-}
-pre {
-word-break: normal;
-word-wrap: normal;
-}
-pre code {
-white-space: inherit;
-}
-
-.summary > li:first-child {
-height: 50px;
-padding-top: 10px;
-border-bottom: 1px solid rgba(0,0,0,.07);
-}
-.book .book-summary ul.summary li.divider {
-height: 0px;
-}
-
-.toc-logo {
-width: 190px !important;
-object-fit: contain;
-margin: 0 auto;
-}
-.toc-logo img {
-max-width: 100%;
-margin-bottom: 10px;
-}
-.summary > li:first-child {
-height: auto !important;
-}
-.book.with-summary .book-header.fixed {
-left: 200px;
-}
-.book.with-summary .book-body {
-left: 200px;
-}
-.book .book-summary {
-width: 200px;
-}
-
-.book .book-summary {
-background: #F3F1E7 ;
-border-right: none;
-}
-.summary a:hover {
-color: #D9DA9E !important;
-}
-.book .book-summary ul.summary li.active>a { 
-color: #A59F6D !important;
-border-left: solid 4px;
-border-color: #4379E1;
-padding-left: 11px !important;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal a {
-color: #4379E1;
-}
-.book .book-body .page-wrapper .page-inner section.normal a:hover {
-color: #D9DA9E; 
-text-decoration: none;
-}
-.book.font-family-1 {
-color: #474747;
-}
-h1, h2, h3, h4 {
-color: #4379E1;
-}
-.title {
-font-size: 3em !important;
-color: #4379E1;
-}
-.subtitle {
-color: #A59F6D;
-}
-</style>
+<style type="text/css">p.caption {color: #777;margin-top: 10px;}p code {white-space: inherit;}pre {word-break: normal;word-wrap: normal;}pre code {white-space: inherit;}.summary > li:first-child {height: 50px;padding-top: 10px;border-bottom: 1px solid rgba(0,0,0,.07);}.book .book-summary ul.summary li.divider {height: 0px;}.toc-logo {width: 190px !important;object-fit: contain;margin: 0 auto;}.toc-logo img {max-width: 100%;margin-bottom: 10px;}.summary > li:first-child {height: auto !important;}.book.with-summary .book-header.fixed {left: 200px;}.book.with-summary .book-body {left: 200px;}.book .book-summary {width: 200px;}.book .book-summary {background: #F3F1E7 ;border-right: none;}.summary a:hover {color: #D9DA9E !important;}.book .book-summary ul.summary li.active>a { color: #A59F6D !important;border-left: solid 4px;border-color: #4379E1;padding-left: 11px !important;}.book .book-body .page-wrapper .page-inner section.normal a {color: #4379E1;}.book .book-body .page-wrapper .page-inner section.normal a:hover {color: #D9DA9E; text-decoration: none;}.book.font-family-1 {color: #474747;}h1, h2, h3, h4 {color: #4379E1;}.title {font-size: 3em !important;color: #4379E1;}.subtitle {color: #A59F6D;}</style>
 
 
 
@@ -435,17 +355,80 @@ logger</h1>
 </div>
 
 
-<div id="programming" class="section level3">
-<h3>Programming</h3>
+<div id="supplies" class="section level3">
+<h3>Supplies</h3>
+<ul>
+<li><p>HOBO Pendant MX Temperature/Light Data Logger</p></li>
+<li><p>Smartphone with HOBOconnect and HOBOmobile apps installed (both
+free, HOBOconnect requires an account to be made)</p></li>
+<li><p>Deionized water</p></li>
+<li><p>Zip ties</p></li>
+</ul>
+<p><a href="https://manuals.plus/hobo/pendant-mx-temp-mx2201-and-templight-mx2202-data-logger-manual.pdf">HOBO
+Temperature/Light Data Logger manual</a></p>
+<p>This logger does not need to be calibrated before deployment, but you
+may wish to wipe the pendant’s sensor 15-20 minutes before retrieving it
+from its site. This allows the sensor to record at least one instant
+light reading, which can indicate the degree that fouling has impacted
+the collected data.</p>
 </div>
-<div id="deployment-and-retrieval" class="section level3">
-<h3>Deployment and retrieval</h3>
+<div id="programming-the-logger" class="section level3">
+<h3>Programming the Logger</h3>
+<ol style="list-style-type: decimal">
+<li><p>Open the HOBOconnect app on your smartphone. To connect the
+logger with the app, firmly press the center of the light logger
+pendant, which you should feel click and see a small red light flash.
+The pendant’s serial number (SN) should appear on the screen.</p></li>
+<li><p>Select the logger, and if not already done, stop the
+logger.</p></li>
+<li><p>Select “configure,” and enter the date and time you wish to
+deploy the logger. Select “save changes” before finishing.</p></li>
+<li><p>Select “start logging,” which will still delay deployment until
+the designated time.</p></li>
+</ol>
 </div>
-<div id="data-processing" class="section level3">
-<h3>Data processing</h3>
+<div id="deploying-the-logger" class="section level3">
+<h3>Deploying the Logger</h3>
+<p><strong>General deployment advice:</strong></p>
+<ul>
+<li><p>The pendant should be attached to a solid surface or frame (such
+as a cage) rather than suspended from a line.</p></li>
+<li><p>Even if logging out-of-water temperature and light, secure the
+logger to something solid. Never leave the logger somewhere easily
+knocked into water or damaged.</p></li>
+<li><p>If the logger is deployed in a shadowed area, such as
+beneath/alongside a dock, ensure that factor is accounted for when
+interpreting data. If other loggers are deployed in an area receiving
+full sunlight all day, a light logger deployed in a half-sun area may
+not be appropriate.</p></li>
+</ul>
+<p><strong>To deploy logger:</strong></p>
+<ul>
+<li><p>Using zip ties, secure the logger to a sturdy location.</p></li>
+<li><p>Make sure the surface of the logger is clean to avoid inaccurate
+light measurements.</p></li>
+</ul>
 </div>
-<div id="care-and-maintenance" class="section level3">
-<h3>Care and maintenance</h3>
+<div id="post-processing-and-offloading-data" class="section level3">
+<h3>Post-processing and Offloading Data</h3>
+<p><strong>To offload data:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Open HOBOmobile, and connect the logger to your smartphone as
+described in the first section. Stop the logger.</p></li>
+<li><p>Select “device readout”. Once readout is complete, the
+information will be saved in data files, and you may close the
+connection.</p></li>
+<li><p>Select the most recent data file, and export as a CSV file to the
+shared google drive.</p></li>
+</ol>
+<p><strong>To store device:</strong> 1. Gently scrub away any fouling
+with a soft bristled brush, and wipe the sensor clean with a sponge. If
+barnacles have begun to form on the logger’s body, ensure the logger is
+tightly sealed (as for deployment) before soaking in vinegar overnight.
+Fouling should scrub away easily the next day.</p>
+<ol start="2" style="list-style-type: decimal">
+<li>Rinse with deionized water, and allow to dry before storing.</li>
+</ol>
 </div>
 
 
