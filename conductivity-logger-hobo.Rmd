@@ -4,11 +4,73 @@ output:
   html_document:
     css: "style.css"
 ---
+### Supplies
+- HOBO Conductivity Logger U24-002-C logger 
+- YSI Pro-Plus to get a current conductivity reading
+- Deionized water
+- Laptop with HOBOware installed
+- HOBO waterproof shuttle 
 
-### Programming
+[HOBO Conductivity Logger U24-002-C logger manual](https://www.onsetcomp.com/files/manual_pdfs/16844-G%20U24-002-C%20Manual.pdf)
 
-### Deployment and retrieval
+This logger does not require calibration before deployment, but it is important to collect instant YSI readings of conductivity at deployment and retrieval to compensate for fouling.
 
-### Data processing
+### Connecting the Logger to a Computer or Waterproof Shuttle
 
-### Care and maintenance
+To connect the logger to a computer, use either the Optic USB Base Station (BASE-U-4) with a coupler (U22/U24) or HOBO Waterproof Shuttle (U-DTW- 1) with a coupler (COUPLER2-C). 
+
+1. Gently pull off the cap on the communications end of the logger (round end). Gently twist the cap if it has suctioned onto the body. 
+
+2. Attach the coupler to the base station or shuttle.
+
+3. Insert the logger into the coupler, aligning the bump/arrow on the coupler with the notches on the logger. Be sure that it is properly seated in the coupler. If the logger has never been connected to the computer before, it may take a few seconds for the new hardware to be detected by the computer. If the computer still does not recognize the device, unplug the Optic Base Station from the computer’s USB port, and plug in again. Note: If you are using the HOBO Waterproof Shuttle as a base station with a computer, briefly press the coupler lever to put the shuttle into base station mode. A green LED on the shuttle or base station indicates good communication.
+
+4. After logger communications are complete, remove the logger from the coupler. 
+
+
+### Launching the Logger
+
+The logger needs to be configured and launched before taking it to the field for deployment. 
+
+1. With the logger connected to the computer, open HOBOware. From the Device menu, select Launch.
+
+2. Check battery status, select a conductivity range, and select a logging interval.
+
+3. Choose when to start logging (date and time) and click the Delayed Start button.
+
+4. Remove the logger from the coupler and slide the communications cap back on the logger.
+
+### Deploying the Logger
+
+The logger is designed to be easy to deploy in many environments. Follow these guidelines when deploying it:
+
+- Check that the communications cap is snug on the logger’s end before deploying.
+
+- Make sure the logger is located where it will receive an unrestricted flow of the water being monitored to the sensor.
+
+- Ensure the logger is fully submerged.
+
+- When deploying the logger in rivers, streams, and ponds, insert the logger in a PVC or ABS pipe for protection from debris (if possible). The pipe should have enough holes to ensure good circulation of water to the sensor.
+
+- Do not deploy the logger in freezing water with moving ice where the logger could be crushed.
+
+- If fouling is expected during deployment, use YSI field calibration readings from both the beginning and end of the deployment as described in the next section. These readings can be used to compensate for any measurement drift due to fouling. Scrub fouling off the logger with a plastic bristle brush.
+
+### Post-processing and Offloading Data
+
+If you intend to use the collected conductivity data to supplement the HOBO Dissolved Oxygen logger, you must use the HOBOware Pro software on the laboratory laptop, as the DO assistant software is not available in the free software version. 
+
+**You must offload conductivity data before dissolved oxygen data in order to use conductivity measurements in the DO Assistant.**
+
+To offload data:
+
+1. Connect the logger to the computer as described in the first section. Stop the logger.
+
+2. Select “device readout”.
+
+3. Label the file with date and location, and save the file to the shared drive.
+
+4. Detach the logger from the coupler, and unplug the Optic USB Base Station from the computer’s USB port. 
+
+5. Thoroughly rinse the logger’s sensor with deionized water. Scrub away any fouling from the logger’s body using a soft-bristled brush. If barnacles have begun to form on the logger’s body, ensure the logger is tightly sealed (as for deployment) before soaking in vinegar overnight. Fouling should scrub away easily the next day. Allow it to dry before storing.
+
