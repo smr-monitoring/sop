@@ -5,7 +5,7 @@ output:
     css: "style.css"
 ---
 
- # STANDARD OPERATING PROCEDURE
+  STANDARD OPERATING PROCEDURE
 10% (3.7% actual) Hydrochloric Acid Bath Prep and Washing
 
 **1. Location(s):** 	fill in building(s) and room number(s) here

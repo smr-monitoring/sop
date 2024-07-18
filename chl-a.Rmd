@@ -4,3 +4,262 @@ output:
   html_document:
     css: "style.css"
 ---
+TO RUN CHLOROPHYLLS:
+Last edited: William 7/18/2024
+
+### EXTRACT CHLOROPHYLLS:
+
+Do not extract a new batch of samples unless data entry is up to date.
+
+Supplies needed on extracting day:
+
+  - Lab notebook
+  
+  - Dish bin with ice and test tube racks
+  
+  - 16mm test tubes
+  
+  - Clean 16mm test tube lids – we reuse these
+  
+  - Filled repipetter with fresh 90% acetone, make sure it is set to exactly 5ml and air is removed. (How old is current 90% acetone in repipetter? > 1 week dump out)
+  
+  - Forceps
+  
+  - Labels
+  
+  - Ball point pen (not felt tip/gel/etc. pen)
+  
+  - Samples
+  
+  - Be sure there is time tomorrow (24 hrs later) to run the samples
+
+
+- In lab notebook, record “extracting chl” date, time, your name. 	
+
+ - Add notes about anything out of the ordinary. (i.e. drop filter on counter; pick copepod off filter; repipettor might not have been perfect 5ml; etc.
+ 
+Get samples from dewars on ice and put into lab freezer. 
+
+ - A reasonable batch size to run at one time is 40 – 80 samples. Typically run no more than 2 batches per day.
+ 
+  - Process the filters in sets. Keep the sets you’re not working on in the freezer. 
+  
+  - It is helpful to organize the filters sequentially (cruise, cast, Niskin, replicate) for later when the data is entered.
+  
+Write stickers with information from tissue capsules- err on the side of including too much information. With so many samples we encounter labeling errors, and the more information, the better!
+
+Fold the filter lightly with the chlorophyll particulate side facing inward and put the filter into the test tube. Make sure the filter is all the way at the bottom so it will be completely submerged in acetone. This can be accomplished with forceps, Pasteur pipette, or tap/ tap/ tap method. Be careful not to disturb the sample material!
+
+  - Sometimes it can be helpful to use the blunt side of a Pasteur pipette to push the filter all the way down. 
+  
+Immediately add the 5ml of acetone, not too fast so as to avoid splashing.  Make sure filter is covered and there no air bubbles are trapped on the outside of the filter. 
+
+Cap test tube and put test tube in bin of ice. Organize tubes sequentially by cast and Niskin #. 
+
+  - Could organize by cast in bin of ice and finalize Niskin organization when putting in fridge. Whatever your personal preference. 
+  
+  - Alternatively, you could put tubes in test tube rack in fridge (not in ice) and reorganize at end.
+  
+Confirm all caps are completely sealing test tube and place in fridge to extract for 24 hours. The rack of test tubes should be somehow covered to keep it in the dark. If extracting multiple batches, label bin with extraction time. 
+
+Save each batch of tissue capsules in a plastic bag labeled with extraction date and lab notebook page
+
+### RUNNING CHLOROPHYLLS (24 hours later):
+
+Supplies needed:
+
+  - 12 mm test tubes
+  
+  - 10% Hydrochloric acid
+  
+  - Disposable pipettes
+  
+  - Parafilm
+  
+  - Scissors 
+  
+  - Vortexer
+  
+  - Lab notebook
+  
+  - Pencil or ball point pen (not felt tip/gel/etc. pen)
+  
+  - Space in waste container
+  
+  - Be prepared for dilution (90% acetone, pipette, pipette tips)
+  
+  - Hand held Fluorometer & fluorometer standard
+  
+  - Black falcone tube used as cap over test tubes during readings
+  
+Confirm fluorometer is on channel B (for running extracted chl)
+
+Run air blank, 90% acetone blank, and standard 3x each before running samples
+
+Take 4 test tubes out of fridge at a time and confirm they’re in sequential order for cast and Niskin # when possible
+
+  - Ordering of the samples enables awareness of data quality and trends during measurements. (i.e. duplicates are hopefully run one after another. Do they match up reasonably well?) 
+  
+Shake with vortex to loosen filter from edge with setting around 3-4 seconds.
+
+Place in centrifuge for approximately 2 – 3 minutes
+
+Pipette acetone into 12mm test tube (from top of sample…make sure you don’t get any filter bits)
+
+  - Visually confirm the tube is clean and not broken before pipetting sample into it. Wipe with Kimwipe if deemed necessary. 
+  
+Place 12mm test tube in fluorometer, cover with black taped flacon tube cover, read Rb
+
+  - If this is a duplicate, how does it compare to the other sample? 
+  
+  - Is this a new value compared to the previously value you recorded? (Sometimes you think you’ve hit the read button but it didn’t actually register.)
+  
+Add 2 drops of 10% HCl and use parafilm on top of test tube. Holding parafilm with finger, invert tube end over end 3 times to ensure well mixed
+
+  - Be sure using fresh section of parafilm for each individual sample tube to avoid contamination between samples.
+  
+Wipe tube with Kimwipe before inserting in fluorometer to ensure no acetone drips get into fluorometer
+
+Read Ra in fluorometer
+
+  - Ra should ALWAYS be lower than Rb
+  
+  - Ra is often ½ - 2/3 the value of the Rb. If it’s not, pause. Was this sample acidified? Did a new reading actually occur? Is it the correct tube? Is the Ra value similar to the Rb value? Seems likely wasn’t acidified 
+  
+If reading is over ~400, a dilution measurement is needed. 
+
+  - Record dilution ratio very carefully
+  
+
+### ENTERING CHLOROPHYLL DATA:
+
+Data locations:
+
+\\sosiknas1\Lab_data\LTER\CHL\ NESLTERchl.xlsx
+
+\\sosiknas1\Lab_data\SPIROPA\CHL\ SPIROPAchl.xlsx
+
+\\sosiknas1\Lab_data\OOI\ OOIchl.xlsx
+
+\\sosiknas1\Lab_data\OTZ\CHL\OTZchl.xlsx
+
+
+All chl samples for a give project reside on a single worksheet in the Excel document for that project. The relevant worksheet is the first worksheet, often labeled “chl”. See different project Excel docs above.
+
+The sample meta data should already be entered. If not, it needs to be entered before the data from the lab notebook can be entered. See fields below for definitions of what fields this refers to. These values are retrieved from the handwritten cruise log sheets.
+
+  - **Cruise, Date, Cast, Niskin, Target Depth, Vol Filtered,** and **Filter Size** are from the cruise log sheets. 
+  
+  - **LTERStation** – should be on all Sosik log sheets, if Pioneer when LTER didn’t sail, certain stations equate to LTER stations
+  
+    - IS=L6; CI=L7; CO=L9; OS=L10; UO=L12; UI=L13
+  
+  - **Replicate** is typically a or b. If samples are taken from the same Niskin, they are a true replicate and with be a, b, c, etc. If samples are from the same depth, but from different Niksins, they are both a’s.
+  
+  - **Filter Size** - The only values entered should be 0, 10 (for <10), 5 (for >5), or 20 (for >20)
+  
+    - The surface depth almost always will have 0’s and 10’s. 
+  
+    - 5 and 20 are for LTER only 
+  
+  - **Comments** – anything on the cruise log sheet that might be helpful for data QC should be entered. Ex) “picked off zooplankton”, “dropped filter on counter”, etc. 
+  
+    - **TAR ID**# goes in comments; get from TAR chla scanned log sheets
+  
+    - If Pioneer had OOI ID#, enter in comments, it’s also entered in **LTER_Sample_log**
+  
+**Rb-blank, Ra-blank, Chl (ug/l), Phaeo (ug/l)** – CONTAIN FORUMULAS! Do NOT just casually copy and paste
+
+  - Can select all 4 cells across and drag down from bottom right corner which will drag formula down and keep the cells correctly referring to each row
+  
+Enter data from lab notebook. (See definitions/guidance for each column below)
+
+  - **Cruise, Cast, Niskin, Date_analyzed** (self-explanatory)  
+  
+  - **Rb, Ra** – DO NOT COPY AND PASTE AROUND!!!
+  
+    - **If you accidentally entered in wrong row, need to re-type in correct row, cannot copy/paste. This will mess up formulas that have linked cells**
+  
+  - **Volume extracted** is typically a multiple of 5 (5, 10, 15) and is from lab notebook. It is the volume added to the test tube that the filter sits in overnight that happens first day during extraction. (If the sample is diluted later on, it does not change the volume extracted)
+  
+  - **Sample** with always be a value of 1 and should only be entered once the Rb and Ra data have been entered.
+  
+  - **90% Acetone** will always be 0. 
+  
+  - **Acetone blank** (column labeled “blank”) should be an average of the 3 acetone blank readings at the start and end of each batch run. The blank is specific to the time of when each batch of samples was run. This value can be copy and pasted between cells. Write it as an average and leave all 6 values in cell so can be checked later (do NOT calculate average value in another place and enter only that single value)
+  
+  - The **Chl_Cal_filename, tau_Calibration, Fd_Calibration, Cal_Date**, and **Fluorometer** are linked cells from the appropriate calibration spreadsheet also in this document. 
+  
+  -   The **Cal_date** must be entered. If they are not our samples and we don’t know the calibration date, enter the sample date in the Cal_date field. 
+  
+  -   **Dilution** during reading is from lab notebook. Did you extract in 5ml but realized added another 5ml for total of 10ml before reading? Dilution would be ½. Did you dilute via pipette and do 1 part sample to 2 parts acetone? Dilution would be 1/3 which can be entered as “=1/3”
+  
+  -   Typically, the sample and replicates columns will look the same. 
+  
+  -   If there was a sample taken, there must be a value entered in the replicates column. Even if the sample was lost, note it in the cal_filename field and fill in the replicates field.
+  
+  - **Lab notebook and Page number** with lab notebook and page number (##-##) as entering
+  
+  -   2 digits, dash, 2 digits, no spacing. Important that 2nd digits are 2 digit, example 10-01 for labNB #10, page 1
+  
+  - **Cal_date  & Fluorometer** can copy and paste from most recent entries. They are to match the calibration info. As of Spet 2022, Sosik Lab always use the “Turner Designs Aquafluor Handheld Serial Number 800446”
+  
+  -   **In 2022 should use new Cal_051922a so first new analyzed samples will need the chl_Cal_filename, tau_Calibration, Fd_Calibration, Cal_date all updated**
+  
+  - **Comments** add any comments from lab notebook. At this point, Comments will be a combo of bot cruise log sheets and lab notebook
+  
+  - Pay attention to the **quality flag entry** initial data entry populate flag as 1 when entering
+  
+   1:symbolizes a regular acceptable chlorophyll sample; everything starts as a 1
+    
+   2:the sample is questionable or suspicious, but we will still use the data because we have no reason to exclude it; keep an eye on this sample
+    
+   3:not using the data; thrown out; there is a definitive, concrete reason to exclude the data, i.e. very negative phaeophytin value, cruise notes say filter might be bad, etc.
+    
+This excel file is linked directly to the database so all data entered into it should update in the following tables:
+
+  - The **Chl_MVCO** tab should automatically update the **CHL_MVCO** excel linked table in Access
+  
+  - Check these to make sure they updated with all the new data
+  
+
+### ADDITIONAL NOTES/INSTRUCTIONS
+- Do not ever sort document
+
+- Can use filtering if you want
+
+- Any color coding or border of cells is purely for visual aid during data entry, does not get carried through workflow
+
+- When adding rows check the cruise log sheet. Was that Niskin sampled/ was there a duplicate? 
+
+- <10um only occur at certain depths. OOI never. SPIROPA/OTZ surface only. LTER surf, sometimes chl max, sometimes 3rd depth. 
+
+- Ra should never > Rb
+
+- Very very low values (ex 1.6) are basically below detection limit of fluorometer so this circumstance might result in Ra ~= Rb or perhaps Ra slightly > that Rb
+
+- Ra typically ~ ½ - 2/3 value of Rb. Deeper depths more phaeo so higher Ra?
+
+- Can reference sample depth if available for initial guidance
+
+- Initial and date lab notebook in red pen once entered.
+
+- Any additional notes, corrections, or other, written in the lab notebook after the day of running should be written in red pen to denote changes made on a different date from running samples.
+
+- When making comments, for cast and Niskin write C#N#. Always include the C and N.
+
+- When doing initial data entry, if you feel something looks fishy, mark quality flag as 4
+
+- ALL notes from lab notebook, cruise log sheets, QC analysis should be written in comments field
+
+- If you feel confident about adding a row check cruise log sheets first
+
+- If there’s a discrepancy with a sample such as it’s already been run on another day, look through tissue capsules to confirm there wasn’t an error when recording in lab NB. When investigating tissue capsules, are there other samples from that cast? How does the handwriting compare? Then write your conclusions in the comments
+
+- When entering, look at calculated chl and phaeo values. Is there a #REF! that means the formula is wrong. Check linked cells and drag formula from above correct cells.  Do they look reasonable? Is one negative? Is there a duplicate? Do replicates “match” reasonably well? 
+
+- Pay attention to samples as running. Glance after entry. Is there a very dep sample that has a very high chl concentration that maybe doesn’t make sense? Flag it as a 4. Do the duplicates look reasonable? Is the phaeo less than the chl at shallow depths? Are there any negative calculated values? Flag as 4. 
+
+- Leave QC_d column alone unless you know what you’re doing and what it’s for!
+
+
