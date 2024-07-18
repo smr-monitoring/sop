@@ -1,6 +1,41 @@
 ---
-title: "Secchi depth"
+title: "Secchi depth and vertical light profile"
 output: 
   html_document:
     css: "style.css"
 ---
+Supplies
+
+- Secchi disk
+
+- LI-COR handheld light meter
+
+- LI-COR underwater light sensor assembly
+
+### Secchi depth procedure
+The Secchi disk is a round, ten inch in diameter, weighted, black and white disk that is lowered by cable into the water. Secchi disks are used to measure transparency/water column turbidity, which is an integrated measure of light scattering and absorption. The secchi depth is measured in meters (and fractions thereof) and is the water’s surface at which a Secchi disk can no longer be seen. When lowering the secchi underwater, make sure you use it away from your shadow or the shadow of the boat/pier. The yellow support cable used for lowering the secchi is marked with black tape or marker to measure the secchi depth in 0.1 m increments. When using the secchi off a boat it is useful to take it in a bucket for easy deployment and retrieval. 
+
+  1. Lower the secchi disc into the water until you can no longer see it.
+  
+  2. Raise it back up until you can barely see it.
+  
+  3. This is the secchi depth - note the depth of the disc using the increments marked on the line and record on your datasheet.
+  
+  4. Once finished and back in the lab, rinse the secchi. Place it carefully on the lab drying rack, and return to the storage cabinet when dry.
+  
+### Vertical light profile procedure
+
+**Important note:** When lowering the LI-COR underwater, make sure to use the support line and not the black sensor cable. The lowering frame and the black attached cable are marked with yellow tape in 10-cm increments. 
+
+  1. Attach the light meter to the light sensor assembly and turn on the handheld meter.
+  
+  2. Select “WATER”
+  
+  3. Lower the light assembly so that the white bulb is just below the surface of the water. Hold the sensor there for at least 30 seconds and note the reading next to the “LIGHTAVG” input, which calculates a 30-second running average of light readings collected at 1-second intervals. Record the depth as 0.01 m. Alternatively if the water is choppy and it is difficult to keep the sensor at a constant depth, do your best to select a reading from any of the other inputs when the sensor is at the proper depth.
+  
+  4. Lower the frame to the 0.1 m tape marker and repeat, recording the reading and a depth of 0.1 m.
+  
+  5. Repeat for at least 5 more depths until you either hit the bottom or the light meter is reading close to 0. You can choose the intervals based on the depth of the water. We always start with a surface reading (0.01 m). For shallow (<10 ft deep) turbid water, we then usually record at a few 0.1 m increments, and then increase the depth intervals (e.g., 0.01, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0 m).
+  
+  6. Once finished and back in the lab, rinse the LI-COR frame and sensor only with water.  Place the LI-COR carefully on the drying rack and place back in the cabinet when dry.
+  

@@ -11,7 +11,7 @@
 
 
 
-<title>Secchi depth</title>
+<title>Secchi depth and vertical light profile</title>
 
 <script>// Pandoc 2.9 adds attributes on both header and div. We remove the former (to
 // be compatible with the behavior of Pandoc < 2.8).
@@ -252,87 +252,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">p.caption {
-color: #777;
-margin-top: 10px;
-}
-p code {
-white-space: inherit;
-}
-pre {
-word-break: normal;
-word-wrap: normal;
-}
-pre code {
-white-space: inherit;
-}
-
-.summary > li:first-child {
-height: 50px;
-padding-top: 10px;
-border-bottom: 1px solid rgba(0,0,0,.07);
-}
-.book .book-summary ul.summary li.divider {
-height: 0px;
-}
-
-.toc-logo {
-width: 190px !important;
-object-fit: contain;
-margin: 0 auto;
-}
-.toc-logo img {
-max-width: 100%;
-margin-bottom: 10px;
-}
-.summary > li:first-child {
-height: auto !important;
-}
-.book.with-summary .book-header.fixed {
-left: 200px;
-}
-.book.with-summary .book-body {
-left: 200px;
-}
-.book .book-summary {
-width: 200px;
-}
-
-.book .book-summary {
-background: #F3F1E7 ;
-border-right: none;
-}
-.summary a:hover {
-color: #D9DA9E !important;
-}
-.book .book-summary ul.summary li.active>a { 
-color: #A59F6D !important;
-border-left: solid 4px;
-border-color: #4379E1;
-padding-left: 11px !important;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal a {
-color: #4379E1;
-}
-.book .book-body .page-wrapper .page-inner section.normal a:hover {
-color: #D9DA9E; 
-text-decoration: none;
-}
-.book.font-family-1 {
-color: #474747;
-}
-h1, h2, h3, h4 {
-color: #4379E1;
-}
-.title {
-font-size: 3em !important;
-color: #4379E1;
-}
-.subtitle {
-color: #A59F6D;
-}
-</style>
+<style type="text/css">p.caption {color: #777;margin-top: 10px;}p code {white-space: inherit;}pre {word-break: normal;word-wrap: normal;}pre code {white-space: inherit;}.summary > li:first-child {height: 50px;padding-top: 10px;border-bottom: 1px solid rgba(0,0,0,.07);}.book .book-summary ul.summary li.divider {height: 0px;}.toc-logo {width: 190px !important;object-fit: contain;margin: 0 auto;}.toc-logo img {max-width: 100%;margin-bottom: 10px;}.summary > li:first-child {height: auto !important;}.book.with-summary .book-header.fixed {left: 200px;}.book.with-summary .book-body {left: 200px;}.book .book-summary {width: 200px;}.book .book-summary {background: #F3F1E7 ;border-right: none;}.summary a:hover {color: #D9DA9E !important;}.book .book-summary ul.summary li.active>a { color: #A59F6D !important;border-left: solid 4px;border-color: #4379E1;padding-left: 11px !important;}.book .book-body .page-wrapper .page-inner section.normal a {color: #4379E1;}.book .book-body .page-wrapper .page-inner section.normal a:hover {color: #D9DA9E; text-decoration: none;}.book.font-family-1 {color: #474747;}h1, h2, h3, h4 {color: #4379E1;}.title {font-size: 3em !important;color: #4379E1;}.subtitle {color: #A59F6D;}</style>
 
 
 
@@ -429,12 +349,73 @@ display: none;
 
 
 
-<h1 class="title toc-ignore">Secchi depth</h1>
+<h1 class="title toc-ignore">Secchi depth and vertical light
+profile</h1>
 
 </div>
 
 
-
+<p>Supplies</p>
+<ul>
+<li><p>Secchi disk</p></li>
+<li><p>LI-COR handheld light meter</p></li>
+<li><p>LI-COR underwater light sensor assembly</p></li>
+</ul>
+<div id="secchi-depth-procedure" class="section level3">
+<h3>Secchi depth procedure</h3>
+<p>The Secchi disk is a round, ten inch in diameter, weighted, black and
+white disk that is lowered by cable into the water. Secchi disks are
+used to measure transparency/water column turbidity, which is an
+integrated measure of light scattering and absorption. The secchi depth
+is measured in meters (and fractions thereof) and is the water’s surface
+at which a Secchi disk can no longer be seen. When lowering the secchi
+underwater, make sure you use it away from your shadow or the shadow of
+the boat/pier. The yellow support cable used for lowering the secchi is
+marked with black tape or marker to measure the secchi depth in 0.1 m
+increments. When using the secchi off a boat it is useful to take it in
+a bucket for easy deployment and retrieval.</p>
+<ol style="list-style-type: decimal">
+<li><p>Lower the secchi disc into the water until you can no longer see
+it.</p></li>
+<li><p>Raise it back up until you can barely see it.</p></li>
+<li><p>This is the secchi depth - note the depth of the disc using the
+increments marked on the line and record on your datasheet.</p></li>
+<li><p>Once finished and back in the lab, rinse the secchi. Place it
+carefully on the lab drying rack, and return to the storage cabinet when
+dry.</p></li>
+</ol>
+</div>
+<div id="vertical-light-profile-procedure" class="section level3">
+<h3>Vertical light profile procedure</h3>
+<p><strong>Important note:</strong> When lowering the LI-COR underwater,
+make sure to use the support line and not the black sensor cable. The
+lowering frame and the black attached cable are marked with yellow tape
+in 10-cm increments.</p>
+<ol style="list-style-type: decimal">
+<li><p>Attach the light meter to the light sensor assembly and turn on
+the handheld meter.</p></li>
+<li><p>Select “WATER”</p></li>
+<li><p>Lower the light assembly so that the white bulb is just below the
+surface of the water. Hold the sensor there for at least 30 seconds and
+note the reading next to the “LIGHTAVG” input, which calculates a
+30-second running average of light readings collected at 1-second
+intervals. Record the depth as 0.01 m. Alternatively if the water is
+choppy and it is difficult to keep the sensor at a constant depth, do
+your best to select a reading from any of the other inputs when the
+sensor is at the proper depth.</p></li>
+<li><p>Lower the frame to the 0.1 m tape marker and repeat, recording
+the reading and a depth of 0.1 m.</p></li>
+<li><p>Repeat for at least 5 more depths until you either hit the bottom
+or the light meter is reading close to 0. You can choose the intervals
+based on the depth of the water. We always start with a surface reading
+(0.01 m). For shallow (&lt;10 ft deep) turbid water, we then usually
+record at a few 0.1 m increments, and then increase the depth intervals
+(e.g., 0.01, 0.1, 0.2, 0.3, 0.5, 0.7, 1.0, 1.5, 2.0 m).</p></li>
+<li><p>Once finished and back in the lab, rinse the LI-COR frame and
+sensor only with water. Place the LI-COR carefully on the drying rack
+and place back in the cabinet when dry.</p></li>
+</ol>
+</div>
 
 
 
