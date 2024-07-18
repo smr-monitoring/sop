@@ -4,11 +4,72 @@ output:
   html_document:
     css: "style.css"
 ---
+### Safety 
 
-### Programming
+**Bursting Hazard:** Should water enter the miniPAR Logger and come into contact with the enclosed batteries the batteries may generate gas, causing the internal pressure to increase. This gas will likely exit via the same location where the water entered, but not necessarily. The miniPAR Logger is designed to release internal pressure, as the black end cap is unscrewed, prior to the disengagement of the black end cap threads. If internal pressure is suspected, then treat the miniPAR Logger with extreme caution.
 
-### Deployment and retrieval
+### Setup and deployment:
 
-### Data processing
+1. Open the miniPAR Logger by unscrewing the white pressure housing from the black end cap. It opens like a flashlight. Remove the white pressure housing completely
 
-### Care and maintenance
+2. Move the Logger Control Switch to the “Record” position. The LED will flash green 5 times. The miniPAR Logger will now record a measurement of time, battery voltage, temperature, PAR, and 3 axis acceleration every 10 minutes (or at some other interval you may have set using the miniPARControl program). The logger will start recording measurements at the start of the next minute.
+
+3. Inspect the o-ring seal for debris.
+
+4. Close the miniPAR Logger by screwing the white pressure housing back onto the black end cap. 
+
+5. Deploy the miniPAR Logger.
+
+### Data Recovery: 
+
+**1: Physical Recovery**
+
+- Recover the miniDOT Logger
+
+- Clean and dry all accessible surfaces except the ‘sensing foil’
+
+**2: Setup for data retrieval**
+
+- create a folder in the google drive data section labeled “MM-DD-YY_DO_logger_data” 
+
+- create two subfolders within labeled “CatDat” and “RawDat”
+
+**3: Data Retrieval**
+
+**A.** Open the Logger by unscrewing the white pressure housing from the black end cap. Remove the white pressure housing completely, taking care that water does not drip onto interior surfaces of circuits or other items inside the Logger. Switch the switch from “record” to “Halt”
+
+**B.** Connect to a Windows HOST computer via the USB connection. Micro USB connects to the logger and Regular USB connects to the computer. The Logger will appear as a ‘thumb drive’ or ‘D:Drive’. The LED on the logger will turn green.
+
+**C.** Within the Logger’s files there will be 3 programs labeled miniPARConcatenate, miniPARControl, and miniPARPlot. Run miniPARConcatenate, it may take a second to boot up, it will launch as a JAVA program
+
+**D.** select the “concatenate” button.
+
+**E.** once the program is done concatenating, in the D:Drive, open the data file
+
+**F.** scroll to the bottom, there should be a file labeled “cat” rename the file with “MM-DD-YY_[Site Location]_[Site salinity (FW or BR)]_PAR_[Logger Letter]” 
+
+**G.** transfer this file into the “CatDat” subfolder in the google drive 
+H-Then scroll up through the data and find the data for each day the logger was deployed (the date should be at the beginning of each file name as YYYY-MM-DD)
+
+**I.** rename the files corresponding to the days deployed by just adding “_[PAR]” to the end of the file name. 
+
+**J.** Once renamed, move files into the RawDat subfolder in the google drive. 
+
+**K.** Double check that all appropriate data has been moved into the google drive, once confirmed, delete all data in the logger file folder. 
+
+**4: Disconnection** 
+- Select the arrow in the task bar at the bottom left of the screen labeled “Show hidden icons” 
+
+- select the thumb drive icon
+
+- select “Eject PME miniPAR” (if the Concatenate app is still running it will not let you eject, you must close the app first)
+
+- unplug the logger
+
+- Replace silica gel drying packets to ensure maximum drying efficiency.
+
+- Inspect the O-Ring seal for debris and then reseal the logger in the White pressure housing.
+
+- Store safely 
+
+
