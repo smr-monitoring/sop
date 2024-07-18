@@ -5,5 +5,232 @@ output:
     css: "style.css"
 ---
 
-Procedures for acid-washing glass and plastic sample containers.
+ # STANDARD OPERATING PROCEDURE
+10% (3.7% actual) Hydrochloric Acid Bath Prep and Washing
+
+**1. Location(s):** 	fill in building(s) and room number(s) here
+
+
+**2. Chemical(s):** 	
+A: Hydrochloric acid (HCl)
+
+B: Sodium bicarbonate (baking soda, NaHCO~3~) or
+
+C: Sodium hydroxide (NaOH)
+
+**3. Specific Hazards:**  
+A. Hydrochloric acid: Very hazardous in case of skin contact (corrosive, irritant, permeator), eye contact (irritant, corrosive), ingestion, or inhalation.
+
+B. Sodium bicarbonate:  Slightly to moderately irritating to mucous membranes and eyes.
+
+C. Sodium hydroxide:  Causes severe burns by all exposure routes, water reactive, hygroscopic.
+
+**4. Purchasing:** 
+All purchases of these materials must have approval from the lab director or the Department Chemical Hygiene/Safety Officer before ordering.  Quantities of this material will be limited to the smallest amount necessary to complete the experiments.
+
+**5. Storage:** 
+Materials will be stored according to compatibility and label recommendations in the designated acid storage area.  Storage areas will be regularly inspected by lab personnel to ensure safety.  Periodic inventory reductions will be scheduled.
+
+
+**6. Authorized personnel:** 
+Use will be limited to the following personnel (check all that apply):
+Principal Investigator __ 		Graduate students_		Technical staff __		
+Post-doctoral employees__		Undergraduates ___ 		Other (___________)
+
+
+**7. Training requirements:** 
+The user must demonstrate competency and familiarity regarding the safe handling and use of these materials prior to using them.  Training shall include the following:
+
+A: Review of this SOP
+
+B: Review of applicable SDSs
+
+C: UAF Laboratory Safety training
+
+D: UAF Hazardous Waste Management training
+
+E: UAF Chemical Hygiene Plan
+
+8. Use location: 
+This procedure will be done in room number and building in the fume hood
+
+**9. Personal protective equipment (PPE):** 
+All personnel are required to wear the following personal protective equipment (PPE) whenever conducting this procedure: 
+
+A: Chemically resistant lab coat
+
+B: Safety goggles
+
+C: Nitrile, rubber or neoprene gloves (long arm-length styled preferred)
+
+D: Long pants, long-sleeved shirt, closed-toed shoes (no sandals or mesh-topped shoes)
+
+**10. Spill equipment:** 
+A: Universal absorbent pads
+
+B: Sodium bicarbonate, sodium hydroxide, or acid neutralizer
+
+C: Plastic whisk broom and pan 
+
+D: Labeled waste bags
+
+**11. Procedure: **
+
+**A. Procedure Notes:**
+
+1. Use the formula (M1)(V1)=(M2)(V2) where M is the molarity (37% concentrated, 10% final) and V is the volume to determine amount of concentrated hydrochloric acid needed. The amount of water is determined by the amount of HCl plus whatever is needed to bring the solution up to the final desired volume.
+
+2. Always add acid to water
+
+3. All glassware should be acid washed on the same day that it is used
+
+4. Glassware must be acid washed in a fume hood
+
+5. Recommend that if acid wash tub is large that it be put up on blocks to improve air flow around the tub in the fume hood
+
+**B. Materials needed:**
+
+1. Concentrated hydrochloric acid 
+
+2. Double distilled RO water or deionized water
+
+3. Acid bath tub with lid, labeled with full chemical name and concentration
+
+4. Graduated cylinders
+
+5. Stir rods
+
+6. Glassware rinse tub
+
+7. Glassware transport tub
+
+8. Sodium bicarbonate, sodium hydroxide or acid neutralizer
+
+9. pH paper
+
+10. Siphon hose
+
+**C. Procedure Steps:**
+
+1. Don lab coat, lab apron, safety goggles, and gloves
+
+2. Place the acid bath tub in fume hood and fill with XX L of double distilled RO or deionized water
+
+3. Carefully pour concentrated HCl into graduated cylinder to XX L/mL
+
+4. Slowly pour hydrochloric acid into the water, watch for dripping on outside of cylinder
+
+5. Mix thoroughly with stir rod and place lid on acid bath tub if not being used immediately
+
+6. Fill rinse tub with deionized water and place in fume hood
+
+7. Place glassware that is to be washed in tub and transport to fume hood
+
+8. Place glassware in acid bath making sure to completely immerse all items in acid solution
+
+9. Rinse transport tub with deionized water
+
+10. Drain glassware back into the acid bath and transfer the glassware to the rinse tub making sure that all items are completely immersed in rinse water
+
+11. Drain glassware back into acid bath and place in transport tub
+
+12. Rinse glassware with RO water a minimum of 6 times
+
+13. Place washed items on drying rack (make sure items are inverted)
+
+14. Check pH of water in rinse tub and neutralize with sodium bicarbonate, sodium hydroxide or acid neutralizer to a pH of 5-10 before disposing down drain
+
+15. After the acid washing is complete, put the cover on the acid bath tub
+
+**12. Waste disposal and clean up:**    
+
+The authorized person using this material is responsible for the safe collection, preparation and proper disposal of waste unless otherwise stated below. Waste shall be disposed of as soon as possible and in accordance with all laboratory and University procedures.   
+
+A: Don PPE
+
+B: Carefully neutralize the acid bath solution with sodium bicarbonate, sodium hydroxide or acid neutralizer to a pH of 5-10 
+
+C: If no sink in the fume hood, place lid on neutralized acid bath, place on cart and transport to the laboratory sink.  Do not hand carry.
+
+D: Immerse the siphon hose in the acid bath until the hose is full
+
+E: Pinch or place a finger or thumb over each end
+
+F: Put one end of the siphon hose in the sink and keep the other end in the acid bath
+
+G: Release ends of hose to start the flow of acid bath mixture into the sink
+
+H: Run water at the same time to flush thoroughly down the drain
+
+I: Make sure the bath container is completely clean and free of particulates
+
+**13. Decontamination:**  
+
+A: Triple-rinse any non-disposable items with water
+
+B: Wipe the fume hood and counter surfaces with a paper towel or absorbent pad and water to prevent corrosion
+
+**14. Exposures: Emergency procedures to be followed (from SDS): Call EHSRM immediately to report the spill and to request waste pickup (474-5617).  Wash hands and forearms thoroughly after cleaning up the area.**
+
+**A: Hydrochloric acid**
+
+1.**Eyes:** Rinse thoroughly with plenty of water for at least 15 minutes and consult a physician. Continue rinsing eyes during transport to hospital.
+
+2.**Skin:** Take off contaminated clothing and shoes immediately. Wash with soap and plenty of water. Consult a physician.
+
+3.**Ingestion:** DO NOT INDUCE VOMITING. Never give anything by mouth to an unconscious person. Rinse mouth with water. Consult a physician.
+
+4.**Inhalation:** If breathed in, move person into fresh air. If not breathing, give artificial respiration. Consult a physician.
+
+**B: Sodium bicarbonate**
+
+1.**Eyes:** Check for and remove contacts. Flood eyes with clean flowing water, low pressure and lukewarm (not hot) if possible, occasionally lifting eyelids.
+
+2.**Skin:** Wash with soap and water. Cover the irritated skin with an emollient. Get medical attention if irritation develops. Cold water may be used.
+
+3.**Ingestion:** If large amounts of this material are swallowed, do not induce vomiting. Administer water if person is conscious. Never give anything by mouth to an unconscious person. 
+
+4.**Inhalation:** move to fresh air. If not breathing, give artificial respiration. If breathing is difficult, give oxygen. Get medical attention.
+
+**C:Sodium hydroxide**
+
+1.**Eyes:** Immediately rinse with plenty of water for at least 15 minutes and seek medical attention immediately
+
+2.**Skin:** Immediately flush with plenty of water for at least 15 minutes while removing contaminated clothing and wash using soap. Get medical attention immediately.
+
+3.**Ingestion:** DO NOT INDUCE VOMITING. Never give anything by mouth to an unconscious person. If conscious, wash out mouth with water. Get medical attention immediately.
+
+4.**Inhalation:** Move to fresh air and keep at rest. If breathing is difficult, give oxygen. If not breathing, give artificial respiration. Get medical attention immediately.
+
+**15. Spills:** 
+
+A: In case of a spill outside of the fume hood: evacuate the area.  Immediately call ==474-5617 (EHSRM Hazmat), 474-7721 (UAF Dispatch)==, or 911 (if serious injury or exposure has occurred) to report the spill and request cleanup assistance.
+
+B: In case of a spill inside the fume hood: 
+
+1. Do not turn the fume hood off until area is cleaned  
+
+2. Continue to wear gloves, lab coat, and chemical safety goggles
+
+3. Absorb the spill with universal absorbent pads or neutralize with sodium bicarbonate or acid neutralizer
+
+4. Sweep solids with plastic dust pan and whisk broom and place in labeled, appropriate waste container
+
+5. Cap or tie shut waste container
+
+6. Wash the area with water
+
+7. Place gloves in labeled waste bag
+
+8. Call EHSRM immediately to report the spill and to request waste pickup (474-5617)
+
+9. Wash hands and forearms thoroughly after cleaning up the area
+
+
+Prepared by: _______________________________________________
+
+Date:  _____________________________________
+
+Reviewed/Revised: ___________________________________________
+
 
