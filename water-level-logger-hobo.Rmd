@@ -4,11 +4,86 @@ output:
   html_document:
     css: "style.css"
 ---
+### Supplies
 
-### Programming
+- HOBO Water Level Logger U20-001-04-TI logger (water and air)
 
-### Deployment and retrieval
+- YSI Pro-Plus to get a current barometric pressure reading, or access to nearby weather station measurements
 
-### Data processing
+- Deionized water
 
-### Care and maintenance
+- Laptop with HOBOware installed
+HOBO waterproof shuttle 
+
+[HOBO Water Level Logger Manual 
+](https://www.onsetcomp.com/files/manual_pdfs/12315-E-MAN-U20.pdf)
+
+
+These loggers measure barometric pressure above and below water. The sensors do not require calibration before launch. 
+
+### Connecting the Logger to a Computer or Waterproof Shuttle
+
+To connect the logger to a computer, use the Optic USB Base Station (BASE-U-4) with a coupler (U20 Water Level). Both air and water loggers are programmed in the same way. Water loggers can be distinguished by the Titanium label. 
+
+1. Unscrew the black cap on the communications end of the logger (labeled). Attach the coupler to the base station.
+
+2. Insert the logger into the coupler, aligning the bump/arrow on the coupler with the notches on the logger. Be sure that it is properly seated in the coupler. If the logger has never been connected to the computer before, it may take a few seconds for the new hardware to be detected by the computer. If the computer still does not recognize the device, unplug the Optic Base Station from the computer’s USB port, and plug in again. Note: If you are using the HOBO Waterproof Shuttle as a base station with a computer, briefly press the coupler lever to put the shuttle into base station mode. A green LED on the shuttle or base station indicates good communication.
+
+3. After logger communications are complete, remove the logger from the coupler. 
+
+### Launching the Logger
+
+The logger needs to be configured and launched before taking it to the field for deployment. 
+
+1. With the logger connected to the computer, open HOBOware. From the Device menu, select Launch.
+
+2. Check the battery status. Configure sensors to record temperature and absolute pressure. 
+
+3. Set logging interval and deployment date/time. Once complete, select Delayed Start.
+
+4. Detach the logger from the coupler, and screw the cap back onto the communications end. 
+
+### Deploying the Logger
+
+The loggers are designed to be easy to deploy in many environments. Follow these guidelines when deploying it.
+
+For the titanium (water) logger: 
+
+- Make sure the communications cap is snug on the logger’s end before deploying.
+
+- Place the logger where the sensor will receive an unrestricted flow of the water.
+
+- Check that the logger is fully submerged.
+
+- When deploying the logger in rivers, streams, and ponds, insert the logger in a PVC or ABS pipe for protection from debris (if possible). The pipe should have enough holes to ensure good circulation of water to the sensor.
+
+- Do not deploy the logger in freezing water with moving ice where the logger could be crushed.
+
+- Take field YSI readings of barometric pressure in the water, both at deployment and retrieval. These readings can be used to compensate for any measurement drift due to fouling. Scrub fouling off the logger with a plastic bristle brush.
+
+For the atmospheric (air) logger:
+
+- Make sure the communications cap is snug on the logger’s end before deploying.
+
+- No PCV pipe is necessary for protection, but ensure that the logger is secured somewhere unlikely to be bumped or broken. 
+
+- Record barometric pressure at deployment and retrieval. Atmospheric pressure can be obtained using site-specific weather stations. 
+
+### Post-processing and Offloading Data
+
+If you intend to use the collected barometric pressure data to supplement the HOBO Dissolved Oxygen logger, you must use the HOBOware Pro software on the laboratory laptop, as the DO assistant software is not available in the free software version. 
+
+**You must offload barometric (air and water) data before dissolved oxygen data in order to enable barometric measurements in the DO Assistant. **
+
+To offload data:
+
+1. Connect the logger to the computer as described in the first section. Stop the logger.
+
+2. Select “device readout”.
+
+3. Label the file (baroair or barowater) with date and location, and save the file to the shared drive.
+
+4. Detach the logger from the coupler, and unplug the Optic USB Base Station from the computer’s USB port.
+
+5. Thoroughly rinse the logger’s sensor with deionized water. Scrub away any fouling from the logger’s body using a soft-bristled brush. If barnacles have begun to form on the logger’s body, ensure the logger is tightly sealed (as for deployment) before soaking in vinegar overnight. Fouling should scrub away easily the next day. Rinse with DI water, and allow it to dry before storing.
+

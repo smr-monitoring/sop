@@ -252,87 +252,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">p.caption {
-color: #777;
-margin-top: 10px;
-}
-p code {
-white-space: inherit;
-}
-pre {
-word-break: normal;
-word-wrap: normal;
-}
-pre code {
-white-space: inherit;
-}
-
-.summary > li:first-child {
-height: 50px;
-padding-top: 10px;
-border-bottom: 1px solid rgba(0,0,0,.07);
-}
-.book .book-summary ul.summary li.divider {
-height: 0px;
-}
-
-.toc-logo {
-width: 190px !important;
-object-fit: contain;
-margin: 0 auto;
-}
-.toc-logo img {
-max-width: 100%;
-margin-bottom: 10px;
-}
-.summary > li:first-child {
-height: auto !important;
-}
-.book.with-summary .book-header.fixed {
-left: 200px;
-}
-.book.with-summary .book-body {
-left: 200px;
-}
-.book .book-summary {
-width: 200px;
-}
-
-.book .book-summary {
-background: #F3F1E7 ;
-border-right: none;
-}
-.summary a:hover {
-color: #D9DA9E !important;
-}
-.book .book-summary ul.summary li.active>a { 
-color: #A59F6D !important;
-border-left: solid 4px;
-border-color: #4379E1;
-padding-left: 11px !important;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal a {
-color: #4379E1;
-}
-.book .book-body .page-wrapper .page-inner section.normal a:hover {
-color: #D9DA9E; 
-text-decoration: none;
-}
-.book.font-family-1 {
-color: #474747;
-}
-h1, h2, h3, h4 {
-color: #4379E1;
-}
-.title {
-font-size: 3em !important;
-color: #4379E1;
-}
-.subtitle {
-color: #A59F6D;
-}
-</style>
+<style type="text/css">p.caption {color: #777;margin-top: 10px;}p code {white-space: inherit;}pre {word-break: normal;word-wrap: normal;}pre code {white-space: inherit;}.summary > li:first-child {height: 50px;padding-top: 10px;border-bottom: 1px solid rgba(0,0,0,.07);}.book .book-summary ul.summary li.divider {height: 0px;}.toc-logo {width: 190px !important;object-fit: contain;margin: 0 auto;}.toc-logo img {max-width: 100%;margin-bottom: 10px;}.summary > li:first-child {height: auto !important;}.book.with-summary .book-header.fixed {left: 200px;}.book.with-summary .book-body {left: 200px;}.book .book-summary {width: 200px;}.book .book-summary {background: #F3F1E7 ;border-right: none;}.summary a:hover {color: #D9DA9E !important;}.book .book-summary ul.summary li.active>a { color: #A59F6D !important;border-left: solid 4px;border-color: #4379E1;padding-left: 11px !important;}.book .book-body .page-wrapper .page-inner section.normal a {color: #4379E1;}.book .book-body .page-wrapper .page-inner section.normal a:hover {color: #D9DA9E; text-decoration: none;}.book.font-family-1 {color: #474747;}h1, h2, h3, h4 {color: #4379E1;}.title {font-size: 3em !important;color: #4379E1;}.subtitle {color: #A59F6D;}</style>
 
 
 
@@ -434,17 +354,117 @@ display: none;
 </div>
 
 
-<div id="programming" class="section level3">
-<h3>Programming</h3>
+<div id="supplies" class="section level3">
+<h3>Supplies</h3>
+<ul>
+<li><p>HOBO Water Level Logger U20-001-04-TI logger (water and
+air)</p></li>
+<li><p>YSI Pro-Plus to get a current barometric pressure reading, or
+access to nearby weather station measurements</p></li>
+<li><p>Deionized water</p></li>
+<li><p>Laptop with HOBOware installed HOBO waterproof shuttle</p></li>
+</ul>
+<p><a href="https://www.onsetcomp.com/files/manual_pdfs/12315-E-MAN-U20.pdf">HOBO
+Water Level Logger Manual</a></p>
+<p>These loggers measure barometric pressure above and below water. The
+sensors do not require calibration before launch.</p>
 </div>
-<div id="deployment-and-retrieval" class="section level3">
-<h3>Deployment and retrieval</h3>
+<div id="connecting-the-logger-to-a-computer-or-waterproof-shuttle" class="section level3">
+<h3>Connecting the Logger to a Computer or Waterproof Shuttle</h3>
+<p>To connect the logger to a computer, use the Optic USB Base Station
+(BASE-U-4) with a coupler (U20 Water Level). Both air and water loggers
+are programmed in the same way. Water loggers can be distinguished by
+the Titanium label.</p>
+<ol style="list-style-type: decimal">
+<li><p>Unscrew the black cap on the communications end of the logger
+(labeled). Attach the coupler to the base station.</p></li>
+<li><p>Insert the logger into the coupler, aligning the bump/arrow on
+the coupler with the notches on the logger. Be sure that it is properly
+seated in the coupler. If the logger has never been connected to the
+computer before, it may take a few seconds for the new hardware to be
+detected by the computer. If the computer still does not recognize the
+device, unplug the Optic Base Station from the computer’s USB port, and
+plug in again. Note: If you are using the HOBO Waterproof Shuttle as a
+base station with a computer, briefly press the coupler lever to put the
+shuttle into base station mode. A green LED on the shuttle or base
+station indicates good communication.</p></li>
+<li><p>After logger communications are complete, remove the logger from
+the coupler.</p></li>
+</ol>
 </div>
-<div id="data-processing" class="section level3">
-<h3>Data processing</h3>
+<div id="launching-the-logger" class="section level3">
+<h3>Launching the Logger</h3>
+<p>The logger needs to be configured and launched before taking it to
+the field for deployment.</p>
+<ol style="list-style-type: decimal">
+<li><p>With the logger connected to the computer, open HOBOware. From
+the Device menu, select Launch.</p></li>
+<li><p>Check the battery status. Configure sensors to record temperature
+and absolute pressure.</p></li>
+<li><p>Set logging interval and deployment date/time. Once complete,
+select Delayed Start.</p></li>
+<li><p>Detach the logger from the coupler, and screw the cap back onto
+the communications end.</p></li>
+</ol>
 </div>
-<div id="care-and-maintenance" class="section level3">
-<h3>Care and maintenance</h3>
+<div id="deploying-the-logger" class="section level3">
+<h3>Deploying the Logger</h3>
+<p>The loggers are designed to be easy to deploy in many environments.
+Follow these guidelines when deploying it.</p>
+<p>For the titanium (water) logger:</p>
+<ul>
+<li><p>Make sure the communications cap is snug on the logger’s end
+before deploying.</p></li>
+<li><p>Place the logger where the sensor will receive an unrestricted
+flow of the water.</p></li>
+<li><p>Check that the logger is fully submerged.</p></li>
+<li><p>When deploying the logger in rivers, streams, and ponds, insert
+the logger in a PVC or ABS pipe for protection from debris (if
+possible). The pipe should have enough holes to ensure good circulation
+of water to the sensor.</p></li>
+<li><p>Do not deploy the logger in freezing water with moving ice where
+the logger could be crushed.</p></li>
+<li><p>Take field YSI readings of barometric pressure in the water, both
+at deployment and retrieval. These readings can be used to compensate
+for any measurement drift due to fouling. Scrub fouling off the logger
+with a plastic bristle brush.</p></li>
+</ul>
+<p>For the atmospheric (air) logger:</p>
+<ul>
+<li><p>Make sure the communications cap is snug on the logger’s end
+before deploying.</p></li>
+<li><p>No PCV pipe is necessary for protection, but ensure that the
+logger is secured somewhere unlikely to be bumped or broken.</p></li>
+<li><p>Record barometric pressure at deployment and retrieval.
+Atmospheric pressure can be obtained using site-specific weather
+stations.</p></li>
+</ul>
+</div>
+<div id="post-processing-and-offloading-data" class="section level3">
+<h3>Post-processing and Offloading Data</h3>
+<p>If you intend to use the collected barometric pressure data to
+supplement the HOBO Dissolved Oxygen logger, you must use the HOBOware
+Pro software on the laboratory laptop, as the DO assistant software is
+not available in the free software version.</p>
+<p><strong>You must offload barometric (air and water) data before
+dissolved oxygen data in order to enable barometric measurements in the
+DO Assistant. </strong></p>
+<p>To offload data:</p>
+<ol style="list-style-type: decimal">
+<li><p>Connect the logger to the computer as described in the first
+section. Stop the logger.</p></li>
+<li><p>Select “device readout”.</p></li>
+<li><p>Label the file (baroair or barowater) with date and location, and
+save the file to the shared drive.</p></li>
+<li><p>Detach the logger from the coupler, and unplug the Optic USB Base
+Station from the computer’s USB port.</p></li>
+<li><p>Thoroughly rinse the logger’s sensor with deionized water. Scrub
+away any fouling from the logger’s body using a soft-bristled brush. If
+barnacles have begun to form on the logger’s body, ensure the logger is
+tightly sealed (as for deployment) before soaking in vinegar overnight.
+Fouling should scrub away easily the next day. Rinse with DI water, and
+allow it to dry before storing.</p></li>
+</ol>
 </div>
 
 
