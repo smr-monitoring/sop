@@ -1,17 +1,28 @@
 ---
-title: "YSI measurement and calibration"
+title: "YSI Pro-Plus water quality grab measurements"
 output: 
   html_document:
     css: "style.css"
 ---
+**Supplies**
 
-Procedures for using and calibrating a [YSI ProQuatro Multiparameter Meter](https://www.ysi.com/proquatro) equipped to measure dissolved oxygen, conductivity, pH, and temperature, and water depth. 
+- YSI Pro-Plus Multiparameter Display System Unit & Field Cable
 
-## Calibration
+- YSI sonde unit and probe guard
 
-The instrument should be calibrated prior to each use.
+- Storage container
 
-## Field sampling
+- YSI Calibration and Instruction Manual
 
-## Storage and maintenance
+**Procedures**
+
+A sonde is commonly defined as a group of sensors configured together, which typically have a single recording unit or electronic data logger to record the output from the multiple sensors. Sensors/probes are available for measurement of many physical properties and chemical constituents such as temperature, specific conductance, DO, pH, etc. Each sonde has a probe guard, which protects the sensors during field use.
+
+1. Loosen the data sonde storage cup to allow oxygen sensor to stabilize to present atmospheric pressure.  Allow the sonde to sit for about 5 minutes. Remove the cap and store somewhere safe. Don’t lose the sponge inside the storage cap.
+
+2. Turn on the logger and lower the unit into the water just below the surface and hold there until the readings stabilize. This could take a few minutes. Agitate the sonde while waiting for it to stabilize. Once the readings are more or less stable, record the surface readings in your datasheet.
+
+3. Lower to the bottom and the lift so the sensor is not touching the bottom. Repeat step 2, record your readings as well as the depth. Depths are marked on the cable in 0.1 cm increments.
+
+4. Back in the lab, rinse the sonde with water only. Place it carefully back in the carrying case and store in the ENST closet.
 
