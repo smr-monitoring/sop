@@ -252,87 +252,7 @@ if (window.hljs) {
 
 
 
-<style type="text/css">p.caption {
-color: #777;
-margin-top: 10px;
-}
-p code {
-white-space: inherit;
-}
-pre {
-word-break: normal;
-word-wrap: normal;
-}
-pre code {
-white-space: inherit;
-}
-
-.summary > li:first-child {
-height: 50px;
-padding-top: 10px;
-border-bottom: 1px solid rgba(0,0,0,.07);
-}
-.book .book-summary ul.summary li.divider {
-height: 0px;
-}
-
-.toc-logo {
-width: 190px !important;
-object-fit: contain;
-margin: 0 auto;
-}
-.toc-logo img {
-max-width: 100%;
-margin-bottom: 10px;
-}
-.summary > li:first-child {
-height: auto !important;
-}
-.book.with-summary .book-header.fixed {
-left: 200px;
-}
-.book.with-summary .book-body {
-left: 200px;
-}
-.book .book-summary {
-width: 200px;
-}
-
-.book .book-summary {
-background: #F3F1E7 ;
-border-right: none;
-}
-.summary a:hover {
-color: #D9DA9E !important;
-}
-.book .book-summary ul.summary li.active>a { 
-color: #A59F6D !important;
-border-left: solid 4px;
-border-color: #4379E1;
-padding-left: 11px !important;
-}
-
-.book .book-body .page-wrapper .page-inner section.normal a {
-color: #4379E1;
-}
-.book .book-body .page-wrapper .page-inner section.normal a:hover {
-color: #D9DA9E; 
-text-decoration: none;
-}
-.book.font-family-1 {
-color: #474747;
-}
-h1, h2, h3, h4 {
-color: #4379E1;
-}
-.title {
-font-size: 3em !important;
-color: #4379E1;
-}
-.subtitle {
-color: #A59F6D;
-}
-</style>
+<style type="text/css">p.caption {color: #777;margin-top: 10px;}p code {white-space: inherit;}pre {word-break: normal;word-wrap: normal;}pre code {white-space: inherit;}.summary > li:first-child {height: 50px;padding-top: 10px;border-bottom: 1px solid rgba(0,0,0,.07);}.book .book-summary ul.summary li.divider {height: 0px;}.toc-logo {width: 190px !important;object-fit: contain;margin: 0 auto;}.toc-logo img {max-width: 100%;margin-bottom: 10px;}.summary > li:first-child {height: auto !important;}.book.with-summary .book-header.fixed {left: 200px;}.book.with-summary .book-body {left: 200px;}.book .book-summary {width: 200px;}.book .book-summary {background: #F3F1E7 ;border-right: none;}.summary a:hover {color: #D9DA9E !important;}.book .book-summary ul.summary li.active>a { color: #A59F6D !important;border-left: solid 4px;border-color: #4379E1;padding-left: 11px !important;}.book .book-body .page-wrapper .page-inner section.normal a {color: #4379E1;}.book .book-body .page-wrapper .page-inner section.normal a:hover {color: #D9DA9E; text-decoration: none;}.book.font-family-1 {color: #474747;}h1, h2, h3, h4 {color: #4379E1;}.title {font-size: 3em !important;color: #4379E1;}.subtitle {color: #A59F6D;}</style>
 
 
 
@@ -435,17 +355,261 @@ logger</h1>
 </div>
 
 
-<div id="programming" class="section level3">
-<h3>Programming</h3>
+<div id="supplies" class="section level3">
+<h3>Supplies</h3>
+<ul>
+<li><p>HOBO U26 DO logger with gray vinyl “calibration boot”
+cover</p></li>
+<li><p>YSI Pro-Plus to get a current barometric pressure
+reading</p></li>
+<li><p>Deionized water</p></li>
+<li><p>Sodium sulfite solution</p></li>
+<li><p>Cut-off graduated cylinder</p></li>
+<li><p>Laptop with HOBOware installed</p></li>
+<li><p>HOBO waterproof shuttle</p></li>
+</ul>
+<p><a href="https://www.onsetcomp.com/files/manual_pdfs/15603-B-MAN-U26x.pdf">HOBO
+U26 DO logger user manual</a></p>
+<p>This logger needs to be calibrated before each deployment. Instant
+YSI DO readings should be collected at deployment and retrieval.</p>
 </div>
-<div id="deployment-and-retrieval" class="section level3">
-<h3>Deployment and retrieval</h3>
+<div id="connecting-the-logger-to-a-computer-or-waterproof-shuttle" class="section level3">
+<h3>Connecting the Logger to a Computer or Waterproof Shuttle</h3>
+<p>To connect the logger to a computer, use either the Optic USB Base
+Station (BASE-U-4) or HOBO Waterproof Shuttle (U-DTW- 1) with a coupler
+(COUPLER2-C).</p>
+<ol style="list-style-type: decimal">
+<li><p>Unscrew the pointed black cap on the communications end of the
+logger.</p></li>
+<li><p>Attach the coupler to the base station or shuttle.</p></li>
+<li><p>Insert the logger into the coupler, aligning the bump/arrow on
+the coupler with the notches on the logger. Be sure that it is properly
+seated in the coupler. If the logger has never been connected to the
+computer before, it may take a few seconds for the new hardware to be
+detected by the computer. If the computer still fails to recognize the
+device, unplug the shuttle from the computer’s USB port, and plug in
+again. Note: If you are using the HOBO Waterproof Shuttle as a base
+station with a computer, briefly press the coupler lever to put the
+shuttle into base station mode. A green LED on the shuttle or base
+station indicates good communication.</p></li>
+<li><p>After logger communications are complete, remove the logger from
+the coupler. Make sure the o-ring is still in the groove inside the cap,
+and then reinstall the communications cap.</p></li>
+</ol>
 </div>
-<div id="data-processing" class="section level3">
-<h3>Data processing</h3>
+<div id="calibrating-the-logger-with-the-lab-calibration-tool" class="section level3">
+<h3>Calibrating the Logger with the Lab Calibration Tool</h3>
+<p>Use the Lab Calibration tool in HOBOware to calibrate the logger
+before deploying it. In the two-step procedure, the logger is first
+calibrated to 100% saturation by placing it in water-saturated air.
+Then, you can calibrate the logger to 0% saturation by placing it in a
+sodium sulfite solution. The fresh water, logger, and sodium sulfite (if
+applicable) should be left out in the lab where the calibration is being
+done long enough so that they are at room temperature. If the logger was
+deployed previously, make sure the sensor is clean and dry (see
+Maintenance for more details).</p>
+<p><strong>To use the Lab Calibration tool:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Connect the logger to the computer as described in the previous
+section. Stop the logger if it is currently logging or awaiting a
+coupler or delayed start.</p></li>
+<li><p>From the Device menu, click Lab Calibration.</p></li>
+<li><p>The current gain and offset adjustments are displayed in the top
+pane of the Lab Calibration window along with the date and time the last
+lab calibration was completed (if applicable). Completing Steps 1
+through 3 in the Lab Calibration tool will result in new gain and offset
+adjustment values based on the current logger conditions.</p></li>
+<li><p>Step 1: 100% Saturation In “Step 1: 100% Saturation” in the Lab
+Calibration window, enter the barometric pressure for your current
+location. Use the YSI to get the current barometric pressure.</p></li>
+</ol>
+<ul>
+<li><p>Make sure the logger either has the protective guard or the
+anti-fouling guard installed (whichever guard you plan to use in the
+deployment) so that the sensor is covered.</p></li>
+<li><p>Remove the small sponge from the calibration boot, and wet the
+sponge with deionized water. It should be damp, but not
+sopping.</p></li>
+<li><p>Place the sponge in the gray calibration boot.</p></li>
+<li><p>Insert the logger in the calibration boot so that there is
+approximately a 1 cm (0.5 inch) overlap between the end of the boot and
+the body of the logger. This will ensure there is enough space between
+the end of the logger and the sponge (the logger should not be pressed
+up tightly against the sponge).</p></li>
+<li><p>Set a timer on your phone for 15 minutes.</p></li>
+<li><p>After 15 minutes, click the “Get DO value from the logger” button
+to display the 100% saturation results.</p></li>
+<li><p>Click the Next button to proceed to “Step 2: 0%
+Saturation.</p></li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Step 2: 0% Saturation</li>
+</ol>
+<ul>
+<li><p>If the logger will be deployed in water with DO levels greater
+than 4 mg/L, click the “Skip this Step” button. Otherwise, continue with
+the following procedure.</p></li>
+<li><p>Make sure the logger either has the protective guard or the
+anti-fouling guard installed (whichever guard you plan to use in the
+deployment) so that the sensor is covered.</p></li>
+<li><p>Pour the sodium sulfite into the cut-off graduated cylinder to
+the fill line.</p></li>
+<li><p>Place the sensor end of the logger into the solution so that the
+entire protective guard or anti-fouling guard and at least 2.5 cm (1
+inch) of the logger body are submerged in the beaker. Allow it to rest
+on the bottom of the beaker.</p></li>
+<li><p>Set your phone timer for another 15 minutes</p></li>
+<li><p>Click the “Get DO value from the logger” button to display the 0%
+saturation results.</p></li>
+<li><p>Click the Next button to proceed to “Step 3: Finish.”</p></li>
+</ul>
+<ol start="6" style="list-style-type: decimal">
+<li>Step 3: Finish</li>
+</ol>
+<ul>
+<li>The results from the first two steps are displayed as well as the
+overall calibration results and the new gain and offset adjustment
+values. If you are satisfied with the results, click the “Send
+Calibration to Logger” button. The logger will then be calibrated based
+on the new values. These values will not take effect until the logger is
+launched.</li>
+</ul>
 </div>
-<div id="care-and-maintenance" class="section level3">
-<h3>Care and maintenance</h3>
+<div id="launching-the-logger" class="section level3">
+<h3>Launching the Logger</h3>
+<p>After calibrating the logger, it needs to be launched to configure it
+before taking it to the field for deployment.</p>
+<ol style="list-style-type: decimal">
+<li><p>With the logger connected to the computer, open HOBOware. From
+the Device menu, select Launch.</p></li>
+<li><p>Select both the DO and Temperature channels to log. Note:
+HOBOware provides the option of recording the current battery voltage at
+each logging interval, which is disabled by default. Recording battery
+life at each logging interval takes up memory and therefore reduces
+logging duration. It is recommended that you only record battery voltage
+for diagnostic purposes. Even with the channel disabled, a bad battery
+event will still be recorded.</p></li>
+<li><p>Select a logging interval. This will typically be an interval of
+15 minutes.</p></li>
+<li><p>Choose when to start logging and click the Start button.</p></li>
+</ol>
+<ul>
+<li>Note: Because deployment programming does not typically include an
+exact end time/date, the program will warn you that the DO filter will
+expire before retrieval. If the sensor’s listed expiration date is not
+within the time frame of deployment, select “continue anyway”.</li>
+</ul>
+<ol start="5" style="list-style-type: decimal">
+<li>Remove the logger from the coupler and screw the communications cap
+back on the logger.</li>
+</ol>
+</div>
+<div id="deploying-the-logger" class="section level3">
+<h3>Deploying the Logger</h3>
+<p>The logger is designed to be easy to deploy in many environments.
+Follow these guidelines when deploying it:</p>
+<ul>
+<li><p>Remove the calibration boot before deploying the logger.</p></li>
+<li><p>Make sure the logger is located where it will receive an
+unrestricted flow of the water being monitored to the sensor.</p></li>
+<li><p>Make sure the logger is fully submerged and not in direct
+sunlight to minimize temperature changes that are unrelated to water
+temperature.</p></li>
+<li><p>When deploying the logger in rivers, streams, and ponds, insert
+the logger in a PVC or ABS pipe for protection from debris (if
+possible). The pipe should have enough holes to ensure good circulation
+of water to the sensor.</p></li>
+<li><p>If possible, position the logger so the sensor face is oriented
+vertically. After deploying in the water, move the logger around
+slightly to eliminate any bubbles that may have formed.</p></li>
+<li><p>Do not deploy the logger in freezing water with moving ice where
+the logger could be crushed.</p></li>
+<li><p>Use the optional anti-fouling guard to protect against fouling.
+Unscrew the protective guard and replace it with the anti-fouling
+guard.</p></li>
+<li><p>If fouling is expected during deployment, use field calibration
+readings from both the beginning and end of the deployment as described
+in the next section. These readings can then be entered into the
+HOBOware Dissolved Oxygen Assistant to compensate for any measurement
+drift due to fouling. Scrub fouling off the logger body with a plastic
+bristle brush. Use a soft sponge to remove fouling from the
+guard.</p></li>
+<li><p>When deploying the logger in salt water, you will need a
+conductivity value to enter in the Dissolved Oxygen Assistant that
+adjusts the data from the logger for salinity. If the salinity is
+constant through the deployment, you will need a single salinity reading
+from either a conductivity meter or salinometer. However, if the
+conductivity changes, then you will need a data file with salinity or
+specific conductivity readings for the entire deployment. Consider
+deploying a HOBO Conductivity logger (U24-002) next to this DO logger to
+use the resulting data file for salinity data.</p></li>
+<li><p>To generate a percent saturation series, you will need to deploy
+a barometric pressure logger (such as a HOBO Water Level Logger,
+U20-001-0x) or have access to a nearby weather station to gather
+barometric pressure data. This data is necessary for the Dissolved
+Oxygen Assistant to calculate percent saturation.</p></li>
+</ul>
+</div>
+<div id="taking-field-calibration-readings" class="section level3">
+<h3>Taking Field Calibration Readings</h3>
+<p>If fouling is expected during the deployment, you can take
+calibration readings at the beginning and end of the deployment to enter
+in the Dissolved Oxygen Assistant. This will adjust the data from the
+logger to compensate for any measurement drift due to fouling.</p>
+<ol style="list-style-type: decimal">
+<li><p>To take calibration readings using a DO field meter:</p></li>
+<li><p>The logger must be logging. Take a DO measurement of the water
+where the logger is being deployed. If using a meter, make sure it is
+calibrated and allow time for the meter probe to stabilize (this will
+occur when three meter measurements taken in a row are within your
+accuracy tolerance).</p></li>
+<li><p>Record the reading, date, and time of the measurement in a field
+notebook.</p></li>
+<li><p>At the end of the deployment, repeat steps 1 and 2.</p></li>
+</ol>
+</div>
+<div id="post-processing-and-offloading-data" class="section level3">
+<h3>Post-processing and Offloading Data</h3>
+<p>To process the collected data, you must use the HOBOware Pro software
+on the laboratory laptop, as the DO assistant software is not available
+in the free software version. All necessary calibration samples have
+been noted in the above sections.</p>
+<p><strong>You must offload both conductivity and barometric pressure
+files in order to use the DO assistant.</strong></p>
+<p><strong>To offload data using the DO Assistant:</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Connect the logger to the computer as described in the first
+section. Stop the logger.</p></li>
+<li><p>Select “device readout”.</p></li>
+<li><p>Within the Plot Setup window, select “Dissolved Oxygen
+Assistant”.</p></li>
+<li><p>In the Adjust for Salinity window, select “Specific Conductance”,
+and select the Specific Conductance datafile previously uploaded from
+the conductivity logger. If the conductivity logger was not deployed,
+select “Salinity”, and enter the field YSI value collected before
+deployment.</p></li>
+<li><p>Within the Use Barometric Pressure (for percent saturation)
+window, select “Barometric Datafile”, and select the barometric pressure
+file previously uploaded from the HOBO Water Level Logger. If no
+barometric pressure monitor was deployed, select “Barometric Data
+Value”, and enter the barometric pressure value gathered from the site’s
+nearest weather station.</p></li>
+<li><p>In the Perform Field Calibration window, select “Using Dissolved
+Oxygen Meter”, and enter the DO values taken at deployment and
+retrieval.</p></li>
+<li><p>Plot the information, label the file with date and location, and
+save the file to the shared drive.</p></li>
+<li><p>Detach the DO logger from the coupler, and unplug the Optic USB
+Base Station from the computer’s USB port.</p></li>
+<li><p>Thoroughly rinse the DO logger’s sensor with deionized water.
+Scrub away any fouling from the logger’s body using a soft-bristled
+brush. If barnacles have begun to form on the logger’s body, ensure the
+logger is tightly sealed (as for deployment) before soaking in vinegar
+overnight. Fouling should scrub away easily the next day.</p></li>
+<li><p>Ensure the sponge in the logger’s calibration boot is damp (not
+soaking) with deionized water, and slide the boot over the logger’s
+sensor for storage.</p></li>
+</ol>
 </div>
 
 
