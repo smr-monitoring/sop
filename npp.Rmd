@@ -1,6 +1,103 @@
 ---
-title: "Water column net primary production"
+title: "Ecosystem production"
 output: 
   html_document:
     css: "style.css"
 ---
+## SMCM Gurbisz Lab
+
+### Overview
+
+ Eutrophication can be defined as an increase in the rate of supply of organic matter to a system. Measuring the rate of supply of organic matter to the system is, therefore, a critical variable to measure if you want to study or manage a eutrophic system. Ecosystem production rates can be quantified by measuring changes in dissolved oxygen as a proxy for the amount of carbon taken up by photosynthesis or consumed via respiration:
+
+Photosynthesis: 6CO2 + 6H2O ⇒ C6H12O6 + 6O2 		(Eq 1) 
+
+Aerobic respiration: C6H12O6 + 6O2 ⇒ 6CO2 + 6H2O 	(Eq 2)
+
+In most ecosystems, photosynthesis and respiration are occurring simultaneously. Photosynthesis adds O2 to the water, and respiration removes it. By measuring changes in O2, we can determine the rates of photosynthesis and respiration in an ecosystem.
+
+One technique we will use is called the light/dark bottle method. In clear-glass "light" bottles, we can incubate water from the estuary over a period of time to indirectly measure photosynthesis, or gross primary productivity (Eq 1). If photosynthesis is greater than respiration in the light bottle, then O2 will increase over time. However, whole-community respiration (R) is still occurring in the light bottles, because all organisms living in the water are respiring. This means that a light bottle gives you an estimate of net ecosystem productivity (NEP).
+
+Using another set of "dark" bottles (painted to prevent light from entering), we can fill them with river water and let them incubate over time. Since photosynthesis is blocked in these bottles, O2 declines through time solely as a result of decomposition and respiration of carbon compounds floating in the water (by bacteria, plankton, macroinvertebrates) (Eq 2). Thus, the dark bottles give us a rate of total ecosystem respiration through time (R).
+
+The difference between the final oxygen concentrations between the light and dark bottles is thus a measure of total photosynthesis, or gross primary production (GPP). Therefore, with some relatively simple measurements of O2, we are capable of teasing apart the individual components of estuary metabolism. We will take these measurements using water collected at both the surface and bottom to determine if we can detect whether the Production:Respiration (P:R) ratio might vary with moderate depth differences.
+
+We will also use the open water method to calculate net ecosystem metabolism, which integrates photosynthesis and respiration carried out in the both water column and the sediment. In systems with relatively homogeneous water masses (due to reduced mixing and/or slow water exchange), clear signals of diel changes in O2 concentration are often detectable and associated with ecosystem metabolism. For example, the rate of O2 concentration increase during the day is equivalent to net daily production (NDP) and the rate of decline during the night is equivalent to nighttime respiration (Rn). In these cases, rates of ecosystem NDP and Rn can be estimated by correcting water column O2 changes for losses or gains via air-water exchange. We will deploy an oxygen logger to measure oxygen at 15-minute intervals and use the changes in O2 during the day and night to calculate NDP, Rn, and ultimately NEP.
+
+### Supplies and equipment
+
+- Handheld YSI with field probe
+
+- Handheld YSI with self-stirring BOD probe 
+
+- 1000 ml nalgene bottle filled with DI 
+
+- water
+
+
+- Clean plastic beaker 
+
+- Clear BOD bottles (9)
+
+- Dark BOD bottles (9)
+
+- Deployment “rig” including rope with loops to attach bottles, an anchor and a buoy (3)
+
+- Portable utility pump
+
+- Boat hook
+
+- O2, conductivity, and depth loggers
+
+- Light-temperature logger
+
+### Procedure
+
+**Pre-deployment lab prep work**
+
+1. Calibrate the YSI with the field probe attached (calibrate for DO, pH, and conductivity). 
+
+2. Calibrate the other YSI with the BOD probe attached (only needs to be calibrated for DO).
+
+3. Gather all of the supplies listed above and carry them down to the waterfront.
+
+**In the field**
+
+4. Set up a BOD probe station either in the River Center lab or one of the River Center decks (you need a clean, dry, flat area near an electrical outlet). Calibrate the BOD probe. Put some DI water in the plastic beaker and place the probe in the water (make sure that the water doesn’t go above the bottom of the probe or it could fry the electronics). Keep the probe submerged when you’re not using it.
+
+5. Take the rest of your gear to the end of the floating dock and use the handheld YSI with field probe attached to take a full suite of readings at both the surface and bottom. Be sure to measure the depth of the water column. Record these observations on your datasheet and note the time.
+
+6. Secure a standard garden hose to the provided attachment of the portable utility pump (stored in Kent 320). Using a line marked with depth, lower the pump beneath the surface, and turn it on using the button beneath the handle. DO NOT DRY RUN THE PUMP. Use the line to lower the pump rather than the hose to minimize the stress exerted on the hose. 
+
+7. Lower the pump carefully until it just barely touches the bottom (don’t stir up the bottom because you don’t want to suck up any sediment), then lift it up so that it is not touching the bottom. Allow the water to run for a few seconds to flush any sediment out of the pump.
+
+8. Fill three light and three dark BOD bottles with bottom sample water by inserting the tip of the hose into the bottom of the bottle. Let the water overflow for several minutes to rinse the bottle and force out any air bubbles. Keep filling the bottle as you withdraw the tube so that the bottle is completely filled. Place the stopper on the bottle. *Don’t get the bottle stoppers mixed up: each stopper is cut to fit its corresponding bottle.* Place the bottles in a carrying container and cover to keep the bottles dark and cool. Note the bottle numbers and the depth on your data sheet.
+
+9. Raise the pump to the middle of the water column (half the total depth) and repeat step 8 for three light and three dark bottles.
+
+10. Raise the pump to just below the surface of the water column and repeat step 8 for the last three light and dark bottles. 
+
+11. Take the bottles to the BOD probe station. For each bottle, insert the BOD probe into the top of the bottle, turn the stirrer on with the red switch, and take an initial DO measurement. Turn the switch back off before removing the probe. Repeat for your other bottles. Record these measurements on your datasheet. Make sure to note the number of each BOD bottle.
+
+12. Carry the bottles back out to the floating dock. Using the carabiner clips, attach one light and one dark bottom bottle to the lowest loop of the pre-prepared line. Repeat for the middle and top bottles. Then carefully lower the entire rig into the water. 
+
+13. Collect water from the middle of the water column (calculated from actual depth recorded during YSI stage) and repeat the steps above. Carefully lift the line out of the water, secure both bottles to the mid-line loop using carabiners, AND attach the wave gauge between the bottles using a carabiner. This will measure the change in bottle depth during the tidal cycle. 
+
+14. Collect water from just below the surface of the water column and repeat the steps above. Carefully lift the line out of the water, secure both bottles to the surface loop using carabiners, and lower back into the water. Check that the buoy does not sink beneath the weight of the bottles, and that the anchor is not being dragged by the buoy’s movement in wind or waves. 
+
+15. Using a boat hook, lift the entire line (from just below the buoy) and move it approximately five feet from the dock. This is to ensure the bottles will not fall under the dock’s shadow, altering photosynthesis and production measurements. 
+
+16. Allow the bottles to incubate for either 12 or 24 hours.
+
+17. Return after the determined time period, and use the boat hook to pull the entire line back within arm’s length of the dock. 
+
+18. Lift the buoy and top third of the line onto the dock, and unclip the surface light and dark bottles. Lower the line back into the water to keep the middle and bottom bottles to keep them at their environmental temperature, which prevents last-minute P and R changes. 
+
+19. Take both bottles to the BOD probe station, and repeat the instructions in step 6 to find the final DO measurement. Record these measurements on your datasheet. Again, note the number of your BOD bottle. Replace the clear probe guard when you’re done.
+
+20. Repeat steps 13 and 14 with the middle and bottom water bottles, lifting the full anchor and line onto the dock once the bottom bottles have been removed. Take the wave gauge back to the lab, and offload the information using the Domino software on the laboratory computer. 
+
+21. Thoroughly rinse the BOD bottles and stoppers, inside and out, with deionized water. Allow them to dry overnight before replacing the stoppers. 
+
+
+
