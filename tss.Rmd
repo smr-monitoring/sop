@@ -4,258 +4,115 @@ output:
   html_document:
     css: "style.css"
 ---
-### 1. SCOPE and APPLICATION 
-NOTE: May be inccorect instructions 
+## Sample filtration
 
-**1.1** Gravimetric analysis is used to determine total suspended solids (TSS) and total volatile solids (TVS), also known as volatile suspended solids (VSS) using a four place analytical balance.
+### Supplies and equipment
 
-**1.2** A Method Detection Limit (MDL) of 2.4 mg TSS/L and 0.9 mg TVS/L were determined using the Student’s t value (3.14) times the standard deviation of seven replicates. If more than seven replicates are used to determine the MDL, refer to the Student’s t test table for the appropriate n-1 value.
+- Whatman GF/F circle filter pads, 47 mm
+- GAST vacuum pump and water rig (already assembled)
+- Forceps
+- Graduated cylinder
+- Squirt bottle filled with deionized water
+- Pre-cut foil packet
+- Sample baggie
+- Sharpie marker
 
-**1.3** The quantitation limit was set at 2.4 mg TSS/L and 0.9 mg TVS/L.
+### Procedures
 
-**1.4** This procedure should be used by analysts experienced in the theory and application of TSS. 1-month experience with an experienced analyst, certified in the analysis using the four place balance, is required.
+#### General filtering notes
 
-**1.5** This method can be used for all programs that require analysis of total suspended and volatile solids.
+- Shake closed water sample container well before filling the graduated cylinder. Otherwise, the solids sink to the bottom of the container.
+- Rinse graduated cylinders three (3) times (a.k.a. sample rinse) prior to starting filtration of a new water sample container.
+- Make sure you write the volume of water filtered for each sample on your data sheet.
+- Do not contaminate the filter pads or the inside of the foil packets by touching with your fingers. Use forceps only. The oils on your fingers will register on the 4-decimal place scale used to weigh the filters.
+- Be very gentle with the filter pads to avoid tearing/ripping. If a filter is torn after filtering is complete, include all pieces in foil packet. If filter is torn before filtering, discard.
+- **Never run the vacuum pump with all air valves closed. This will burn out the pump. Don't run the pump for too long without any samples filtering either. This will tax the pump.**
 
-**1.6** This procedure references EPA Method 160.2 and Standard Methods 208 E.
+#### Filtering instructions
 
-### 2. SUMMARY
+1. To collect a sample, rinse a 1-l Nalgene container three times with sample water, then fill with sample water.
+1. Label a foil packet using labeling tape and a sharpie with the location, date and time, filter number, and volume filtered. 
+1. Connect a piece of vacuum tubing to the pump spigot. Attach the other end to a filtration flask.
+1. Center a prenumbered, combusted, weighed 47-mm GFF filter pad on the filter holder (frit) number side down if number is visible. Secure the filtration funnel to the frit.
+1. Rinse a graduated cylinder three times with sample water.
+1. Measuring with a graduated cylinder, pour 200 ml of sample water into the filter holder. Ensure it is tight before pouring to avoid spills. 
+1. Open the filter valve and turn on the pump using the labeled switch on the side of the lab bench. 
+1. Rinse the filter funnel unit twice with deionized (DI) water after the initial volume has filtered through the pad. This step is VERY IMPORTANT because it rinses out the salt. 
+1. Turn off the pump before unscrewing the filtration tunnel and removing the filter pad. Using 2 forceps and without touching the material on the filter, fold the filter in half with the filtered material on the inside of the fold. Remove the folded pad from the filtration unit with forceps and place inside your pre-labeled aluminum foil packet. Do not touch the filter pad or the inside of the foil pouch with your fingers. Sometimes the folded filter pad will pop open as you are attempting to place it in the foil packet.  If this occurs, use forceps to hold the folded filter pad in half and then fold the aluminum packet closed. Make sure that only the outside of the folded pad (area without filtered material directly on it or visible) is touching the foil. 
+1. If you have not already done so, fold all sides of the aluminum packet closed. 
+1. Record the date, time, location, filter number, and total volume filtered on each foil packet and on the data sheet.
+1. Label a ziplock freezer bag using a black sharpie marker with the date and “MRNE 395”, place the packet into the freezer bag, and store on ice until freezing.
+1. Remove the vacuum hose. Discard the filtered water. Rinse the hose and filtering flask with DI water. 
 
-**2.1** Measured aliquots of a water sample are filtered through a pre-weighed glass fiber filter pad. These pads are placed into a 105° C drying oven overnight to remove any remaining water. The pads are removed from the oven and placed into a desiccator to cool. Once samples have cooled, they are individually weighed on a four place balance. Their respective weights are recorded in a spreadsheet and the concentration is reported as mg/L total suspended solids. If samples are to be used to determine total volatile solids they are placed into a numbered porcelain crucible and dried in a muffle furnace at 500° C for 1.5 hours. The samples are placed into a desiccator to cool. Once they have cooled, they are weighed on the four place balance and their weights are recorded into the spreadsheet.
- 
-### 3. DEFINITIONS
 
-**3.1** Acceptance Criteria – Specified limits placed on characteristics of an item, process, or service defined in a requirement document. (ASQC)
+## Post-filtration filter measurement
 
-**3.2** Accuracy – The degree of agreement between an observed value and an accepted reference value. Accuracy includes a combination of random error (precision) and systematic error (bias) components which are due to sampling and analytical operations; a data quality indicator. (QAMS)
+### Supplies and equipment
 
-**3.3** Aliquot – A discrete, measured, representative portion of a sample taken
+- Pencil
+- Muffle Furnace
+- Analytical balance (reads to 4 decimal places)
+- Filter log book
+- Sealed containers
+- Drying Oven
+- Desiccator with desiccant
+- Porcelain crucibles or aluminum weigh boats
+- Nitrile gloves
 
-**3.4** Batch – Environmental samples, which are prepared and /or analyzed together with the same process and personnel, using the same lot(s) of reagents. An analytical batch is composed of prepared environmental samples (extracts, digestates, or concentrates) and/or those samples not requiring preparation, which are analyzed together as a group using the same calibration curve or factor. An analytical batch can include samples originating from various environmental matrices and can exceed 20 samples. (NELAC/EPA)
+### Procedures
 
-**3.5** Blank- A sample that has not been exposed to the analyzed sample stream in order to monitor contamination during sampling, transport, storage or analysis. The blank is subjected to the usual analytical and measurement process to establish a zero baseline or background value and is sometimes used to adjust or correct routine analytical results. (ASQC)
+#### Drying and muffling filters
 
-**3.6** Calibrate- To determine, by measurement or comparison with a standard, the correct value of each scale reading on a meter or other device, or the correct value for each setting of a control knob. The levels of the applied calibration standard should bracket the range of planned or expected sample measurements. (NELAC)
+1. Wearing gloves, label an aluminum weigh boat with the filter number, and record the weight. 
+1. Gently unfold the aluminum sheet storing the filter, and use forceps to move the filter to the labeled weight boat. DO NOT DISCARD THE FOIL UNLESS YOU HAVE RECORDED ALL INFORMATION FROM THE LABEL. 
+1. Dry filters at 105◦C overnight.  Allow samples to cool to room temperature in a desiccator.
+1. Wearing gloves and using filter forceps, weigh filters and record weights (in grams).
+1. Place filters back in drying oven for a minimum of 1 hour.
+1. Re-weigh filters until a constant dry weight is obtained or until weight change is less than 4% of previous weight or 0.0005 g, whatever is less.
 
-**3.7** Calibration – The set of operations which establish, under specified conditions, the relationship between values indicated by a measuring device. The levels of the applied calibration standard should bracket the range of planned or expected sample measurements. (NELAC)
+#### Calculating TSS
 
-**3.8** Calibration Method – A defined technical procedure for performing a calibration. (NELAC)
+TSS concentration is calculated using the following equation:
 
-**3.9** Corrective Action – Action taken to eliminate the causes of an existing nonconformity, defect or other undesirable situation in order to prevent recurrence. (ISO 8402)
+TSS ($\frac{mg}{l}$) = $\frac{(W~post~-W~pre~)}{V}$ x 1000 
 
-**3.10** Deficiency – An unauthorized deviation from acceptable procedures or practices. (ASQC)
+Where: 	
 
-**3.11** Demonstration of Capability – A procedure to establish the ability of the analyst to generate acceptable accuracy. (NELAC)
+- W~post~ = dry weight of filter pad after filtering (g),
+- W~pre~ = dry weight of filter pad before filtering (g)
+- V = volume of water filtered (l)
 
-**3.12** Detection Limit – The lowest concentration or amount of the target analyte that can be determined to be different from zero by a single measurement at a stated degree of confidence.
+#### Combusting filters for TVS measurement
 
-**3.13** Duplicate Analysis – The analyses of measurements of the variable of interest performed identically on two sub samples (aliquots) of the same sample. The results from duplicate analyses are used to evaluate analytical or measurement precision but not the precision of sampling, preservation or storage internal to the laboratory. (EPA-QAD)
+##### Crucible preparation 
 
-**3.14** Field Duplicates (FD1 and FD2) – Two separate samples collected at the same time and place under identical circumstances and treated exactly the same throughout filed and laboratory procedures. Analyses of FD1 and FD2 provide a measure of the precision associated with sample collection, preservation and storage, as well as with laboratory procedures.
+1. After calculating TSS, transfer filter to a pre-combusted porcelain crucible stored prior to use in the circular desiccator or an aluminum weigh boat
+1. To prepare crucibles, place 5 or more crucibles into the muffle furnace. Turn temperature to 550°C.
+1. Bake out clean crucibles in the muffle furnace for several hours.
+1. Turn the oven temperature to just below 200°C and slowly crack the door to allow crucibles to cool. Keep crucibles in the oven for another 30-45 minutes. 
+1. Remove crucibles that you need (the rest can stay stored in the muffle furnace) with Julian tongs. 
+1. Cool the crucibles in glass desiccators to remove moisture (~45 minutes).  
+1. Take desiccator over to weigh station. Put on gloves (oils on hands may change tare weight). Weigh the crucible (crucible mass) and then place sample in crucible.  
 
-**3.15** Field Reagent Blank (FRB) – A aliquot of reagent water or other blank matrix that is places in a sample container in the laboratory and treated as a sample in all respects, including shipment to the sampling site, exposure to the sampling site conditions, storage, preservation, and all analytical procedures. The purpose of the FRB is to determine if method analytes or other interferences are present in the field environment.
+##### Filter Combustion
 
-**3.16** Furnace – Combusts samples at 500°C.
+1. Turn muffle furnace on. Let it come to 500◦C (this takes about 90 minutes). Add crucibles (or aluminum weigh boats) with filters and let them combust for 90 minutes.  
+1. Turn muffle furnace to 150 or move to a drying oven set to 150.  Allow samples to come to 150◦C for about 1 h, then place in a desiccator.  Allow sample to come to room temperature while in the desiccator.
+1. Weigh crucible (or aluminum weigh boat) and record weight (in grams). Weigh over a few hours until the filter comes to a stable weight (within 0.0005g, or dependent on your accuracy needs).
 
-**3.17** Holding time – The maximum time that samples may be held prior to analysis and still be considered valid (40 CFR Part 136). The time elapsed from the time of sampling to the time of extraction or analysis, as appropriate.
+#### Calculating TVS:
 
-**3.18** Laboratory Duplicates (LD1 and LD2) – Two aliquots of the same sample taken in the laboratory and analyzed separately with identical procedures. Analyses of LD1 and LD2 indicate precision associated with laboratory procedures, but not with sample collection, preservation, or storage procedures.
+TVS ($\frac{mg}{l}$) = $\frac{(W~post~-W~combust~)}{V}$ x 1000 
 
-**3.19** Laboratory Reagent Blank (LRB) – A blank matrix (i.e., reagent water) that is treated exactly as a sample including exposure to all glassware, equipment, solvents, and reagents that are used with other samples. The LRB is used to determine if method analytes or other interferences are present in the laboratory environment, the reagents, or the instrument.
+Where: 	
 
-**3.20** Limit of Detection (LOD) – The lowest concentration level that can be determined by a single analysis and with a defined level of confidence to be statistically different from a blank. Laboratory interchanges LOD and MDL. (ACS)
+- W~combust~ = dry weight of filter pad and sample after combustion (g)-crucible weight (g)
+- W~post~ = dry weight of filter pad after filtering (g).
+- V = volume of water filtered (l).
 
-**3.21** Limit of Quantitation (LOQ) – The minimum levels, concentrations, or quantities of a target variable (target analyte) that can be reported with a specified degree of confidence. The LOQ is set at 3 to 10 times the LOD, or equal to the LOD depending on the degree of confidence desired. Also referred to as quantitation limit.
 
-**3.22** Material Safety Data Sheets (MSDS) – Written information provided by vendors concerning a chemical’s toxicity, health hazards, physical properties, fire, and reactivity data including storage, spill, and handling precautions.
+## REFERENCES
 
-**3.23** May – Denotes permitted action, but not required action. (NELAC)
+- APHA. 1975. Method 208D. Total Nonfilterable Residue Dried at 103- 105 C (Total Suspended Matter) in Standard Methods for the Examination of Water and Wastewater, 14th Edition. American Public Health Association. Washington, D.C. 460pp.
 
-**3.24** Method Detection Limit (MDL) – The minimum concentration of an analyte that can be identified, measured, and reported with 99% confidence that the analyte concentration is greater than zero. (Standard Methods)
-
-**3.25** Must – Denotes a requirement that must be met. (Random House College Dictionary)
-
-**3.26** Precision – The degree to which a set of observations or measurements of the same property, obtained under similar conditions, conform to themselves; a data quality indicator. Precision is usually expressed as standard deviation, variance or range, in either absolute or relative terms. (NELAC)
-
-**3.27** Preservation – Refrigeration, freezing, and/or reagents added at the time of sample collection (or later) to maintain the chemical and or biological integrity of the sample.
-
-**3.28** Quality Control Sample (QCS) – A sample of analytes of known and certified concentrations. The QCS is obtained from a source external to the laboratory and different from the source of calibration standards. It is used to check laboratory performance with externally prepared test materials.
-
-**3.29** Sample Volume – Amount of volume filtered.
-
-**3.30** Sensitivity – The capability of a test method or instrument to discriminate between measurement responses representing different levels (concentrations) of a variable of interest.
-**3.31** Shall – Denotes a requirement that is mandatory whenever the criterion for conformance with the specification requires that there be no deviation. (ANSI)
-
-**3.32** Should – Denotes a guideline or recommendation whenever noncompliance with the specification is permissible. (ANSI)
-
-### 4. INTERFERENCES
-
-**4.1** Excessive residue may form a water trapping crust. Sample size should be limited to yield < 200 mg of residue.
-
-**4.2** Samples from saline waters will not weigh to a constant weight. Therefore, they must be rinsed with copious amounts of distilled water.
-
-### 5. SAFETY
-
-**5.1** Safety precautions must be taken when handling reagents, samples and equipment in the laboratory. Protective clothing including lab coats, safety glasses and enclosed shoes may be worn. In certain situations, it may also be necessary to use gloves and goggles. Contact Solomons Rescue Squad (911) if emergency treatment is needed and also inform the Chesapeake Biological Laboratory (CBL) Associate Director of Administration and Facilities Maintenance of the incident. Contact the CBL Associate Director of Administration and Facilities Maintenance if additional treatment is required.
-
-**5.2** The muffle furnace becomes extremely hot. Use care when removing crucibles from the furnace. Be sure they have cooled to the touch. Use gloves or tongs if necessary.
-
-### 6. EQUIPMENT AND SUPPLIES
-
-**6.1** A four place analytical balance.
-
-**6.2** Desiccator with drying agents such as anhydrous calcium sulfate or silica.
-
-**6.3** Drying oven capable of heating to 105° C
-
-**6.4** Muffle furnace capable of heating to 500° C.
-
-**6.5** Freezer, capable of maintaining -20°  5 C.
-
-### 7. REAGENTS AND STANDARDS
-
-**7.1** Purity of Water – Unless otherwise indicated, references to water shall be understood to mean reagent water conforming to ASTM Specification D 1193, Type I. Freshly prepared water should be used for making the standards intended for calibration. The detection limits of this method will be limited by the purity of the water and reagents used to make the standards.
-
-**7.2** Blanks – ASTM D1193, Type I water is used for the LRB. 7.3 Quality Control Sample (QCS) – For this procedure, the QCS can be any certified dissolved sample which is obtained from an external source. If a certified sample is not available, then use the standard material.
-
-### 8. SAMPLE COLLECTION, PRESERVATION, AND STORAGE
-
-**8.1** Water collected for TSS and/or TVS should be filtered through a Whatman GF/F glass fiber filter (nominal pore size 0.7 m), or equivalent.
-
-**8.2** Samples should be placed into an aluminum foil pouch and should be frozen at -20 C.
-
-**8.3** Frozen TSS/TVS samples may be stored longer than 28 days.
-
-### 9. QUALITY CONTROL
-
-**9.1** The laboratory is required to operate a formal quality control (QC) program. The minimum requirements of this program consist of an initial demonstration of laboratory capability and the continued analysis of laboratory instrument blanks and calibration standard material, analyzed as samples, as a continuing check on performance. The laboratory is required to maintain performance records that define the quality of data generated.
-
-**9.2** Initial Demonstration of Capability
-
-  - 9.2.1 The initial demonstration of capability (iDOC) – is used to characterize instrument performance (MDLs) and laboratory performance (analysis of QC samples) prior to the analyses
-conducted by this procedure.
-
-  - 9.2.2 Method Detection Limits (MDLs) – MDLs should be established for TSS and TVS using a low level natural water sample. To determine the MDL values, analyzed seven replicate aliquots of water. Perform all calculations defined in the procedure (Section 11.3) and report the concentration values in the appropriate units. Calculate the MDL as follows:
-
-MDL = St(n-1,1-α=0.99)
-
-Where, S = Standard deviation of the replicate analyses.
-
-Revision 2019-01 Page 8 of 10
-
-n=number of replicates
-
-t(n-1,1-α=0.99) = Student’s t value for the 99% confidence level with n-1 degrees of freedom (t=3.14 for 7 replicates.)
-
-MDLs should be determined annually or whenever there is a significant change in instrumental configuration or response.
-
-**9.3** Assessing Laboratory Performance
-
-  - 9.3.1 The laboratory performs duplicate analysis of 10% of samples, or at least 1 per batch, whichever is higher. Following initial analysis, place the chosen pad back into the drying oven for 1 hour and reweigh the pad. The results of the two numbers must be compared to each other. The difference between the two weights should be within 10% of each other.
-
-**9.4** Data Assessment and Acceptance Criteria for Quality Control Measures
-
-  - 9.4.1 If a Total Volatile Solid (TVS) result is more than the Total Suspended Solid (TSS) result, an error code 29 is assigned to the sample.
-  
-  - 9.4.2 If duplicates have been provided for a sample, the results of the two numbers must be compared to each other. If the difference between the two numbers is equal to or more than 50% of the lower number, then an error code 14 is assigned.
-
-**9.5** Corrective Actions for Out of Control Data
-
-  - 9.5.1 Out of control data is not reported. Generally, portions of the pad are missing and therefore the measurement is considered useless. An error code is assigned.
-
-### 10. CALIBRATION AND STANDARDIZATION
-
-**10.1** Calibration – Daily checks of calibration of balance using a certified weight must be performed before sample analysis may begin. The balance is professionally calibrated annually.
-
-### 11. PROCEDURE
-
-**11.1** Total Suspended Solids
-
-  - 11.1.1 On a clean piece of paper lay out filter pads for numbering
-  
-  - 11.1.2 Use a Sharpie permanent ultra fine or very fine point black marker, sequentially number outside edge of each pad with a unique label.
-  
-  - 11.1.3 After pads have been labeled,     place in a Pyrex dish, staggering each pad, and dry overnight in a 105° C oven.
-  
-  - 11.1.4 When ready to weigh, remove pads from oven and place into a desiccator to cool.
-
-  - 11.1.5 Turn on analytical balance and computer.
-  
-  - 11.1.6 Perform a balance calibration. Check calibration by weighing a certified weight. Record weight on bench sheet.
-  
-  - 11.1.7 Click on BalanceLink icon and be sure balance has been detected.
-  
-  - 11.1.8 After pads have cooled, weigh pads individually on balance and enter data into respective spread sheets.
-  
-  - 11.1.9 Store pads in their labeled boxes for future use.
-  
-  - 11.1.10 When ready to sample, place pad numbered side down onto filtering apparatus.
-  
-  - 11.1.11 Filter a known volume of sample through the filter pad.
-  
-  - 11.1.12 Rinse pad very well with reagent water to rinse down filter tower and remove any salts from the pad.
-  
-  - 11.1.13 Fold pad in half, sample side in and place pad into a labeled foil pouch. Place foil with sample in labeled storage bag and store in -20° C freezer. Place replicate pads side by side in pouch and not on top of each other.
-  
-  - 11.1.14 When ready to analyze, place opened pouch with sample in 105° C drying oven overnight.
-  
-  - 11.1.15 Repeat steps 11.1.4 – 11.1.8.
-  
-  - 11.1.16 Reweigh certified weight and record on bench sheet.
-
-**11.2** Total Volatile Solids
-
-  - 11.2.1 Place pads straight from box into a crucible and combust at 500° C in a muffle furnace for 1.5 hours.
-  
-  - 11.2.2 Move pads to a 105° C oven for storage until ready to use.
-  
-  - 11.2.3 Repeat steps 11.1.4 – 11.1.7.
-  
-  - 11.2.4 After pads have cooled, weigh pads individually on balance and enter data into respective spread sheets and store into individually labeled Petri dishes for future use.
-  
-  - 11.2.5 When ready to sample, place pad onto filtering apparatus.
-  
-  - 11.2.6 Repeat steps 11.1.10 – 11.1.13
-  
-  
-  - 11.2.7 Repeat steps 11.1.4 – 11.1.8 to determine the TSS value.
-  
-  - 11.2.8 Once TSS value has been determined place pad into a numbered porcelain crucible. Record crucible number and sample ID.
-  
-  - 11.2.9 Combust samples at 500° C in a muffle furnace for 1.5 hours.
-  
-  - 11.2.10 Repeat steps 11.1.4 – 11.1.8.
-  
-  - 11.2.11 Reweigh certified weight and record on bench sheet.
-  
-**11.3** Calculations
-
-  - 11.3.1 Calculate TSS value:
-  
-  mgTSS / L
-
-  (Wpost Wpre ) x 1000
-
-  V (L)
-  (g) (g)
-
-
-
-
-  11.3.2 Calculate TVS:
-
-  ( )
-
-  ( ) 1000 /
-  ( ) ( )
-  V L
-  W W
-
-  mgTVS L
-
-  post g combust g 
-
-###12. REFERENCES
-**12.1** APHA. 1975. Method 208D. Total Nonfilterable Residue Dried at 103- 105 C (Total Suspended Matter) in Standard Methods for the Examination of Water and Wastewater, 14th Edition. American Public Health Association. Washington, D.C. 460pp.
-
-**12.2** USEPA 1979 Method No. 160.2 (with slight modification) in Methods for chemical analysis of water and wastes. United States Environmental Protection Agency, Office of Research and Development. Cincinnati, Ohio. Report No. EPA-600/4-79-020 March 1979. 1193 pp.
+- USEPA 1979 Method No. 160.2 (with slight modification) in Methods for chemical analysis of water and wastes. United States Environmental Protection Agency, Office of Research and Development. Cincinnati, Ohio. Report No. EPA-600/4-79-020 March 1979. 1193 pp.
