@@ -1,0 +1,11 @@
+---
+title: "Cholorphyll *a* filtering"
+output: 
+  html_document:
+    css: "style.css"
+---
+
+Follow the procedures for [TSS filtering](https://smr-monitoring.github.io/sop/tss.html) with the following modifications:
+
+* The filter does not need to be pre-muffled, pre-weighed, or numbered.
+* The filter does not need to be muffled after drying and weighing.
