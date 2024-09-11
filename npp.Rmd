@@ -4,3 +4,68 @@ output:
   html_document:
     css: "style.css"
 ---
+## Overview
+
+Recall the definition we have been using for eutrophication: an increase in the rate of supply of organic matter to a system. Measuring the rate of supply of organic matter to the system is, therefore, a critical variable to measure if you want to monitor and manage a eutrophic system. We can quantify the productivity of the St. Mary’s River using changes in dissolved oxygen as a measure of the amount of carbon taken up by photosynthesis:
+
+* Photosynthesis: 6CO~2~ + 6H~2~O ⇒ C~6~H~12~O~6~ + 6O~2~ (Eq 1) 
+* Aerobic respiration: C~6~H~12~O~6~ + 6O~2~ ⇒ 6CO~2~ + 6H~2~O 	(Eq 2)
+
+
+In most ecosystems, photosynthesis and respiration are occurring simultaneously. Photosynthesis adds O~2~ to the water, and respiration removes it. These familiar photosynthesis and aerobic respiration equations show that by measuring changes in O~2~, we can determine the rates of photosynthesis and respiration in an ecosystem.
+
+One technique we will use is called the light/dark bottle method. In clear-glass "light" bottles, we can incubate water from the estuary over a period of time to indirectly measure photosynthesis, or gross primary productivity (Eq 1). If photosynthesis is greater than respiration in the light bottle, then O~2~ will increase over time. However, whole-community respiration (R) is still occurring in the light bottles, because all organisms living in the water are respiring. This means that a light bottle gives you an estimate of net ecosystem productivity (NEP).
+
+Using another set of "dark" bottles (painted to prevent light from entering), we can fill them with river water and let them incubate over time. Since photosynthesis is blocked in these bottles, O~2~ declines through time solely as a result of decomposition and respiration of carbon compounds floating in the water (by bacteria, plankton, macroinvertebrates) (Eq 2). Thus, the dark bottles give us a rate of total ecosystem respiration through time (R).
+
+The difference between the final oxygen concentrations between the light and dark bottles is thus a measure of total photosynthesis, or gross primary production (GPP). Therefore, with some relatively simple measurements of O~2~, we are capable of teasing apart the individual components of water column metabolism. 
+
+## Supplies and equipment
+
+* Oxygen meter 
+* Self-stirring BOD probe 
+* Clear BOD bottles
+* Dark BOD bottles
+* Wire mesh screens
+* Incubation floats 
+* Submersible water pump
+* PAR logger
+
+## Procedure
+
+### Water collection
+
+1. Take YSI readings at both the surface and bottom. Record these observations on your datasheet.
+2. Using the water pump at the end end of the floating dock, collect water samples from the middle of the water column. 
+3. Each group will fill three light bottles and one dark bottle with bottom sample water using the delivery tube (4 groups = 4 replicates). Place the tube at the bottom of the bottle allow water to flow into the bottle. Let the water overflow for several minutes to rinse the bottle and force out any air bubbles. Keep filling the bottle as you withdraw the tube so that the bottle is completely filled. Place the stopper on the bottle. 
+4. Use the LiCOR PAR meter to measure a vertical light profile at at least 5 depths. Also measure the secchi depth.
+5. Use the YSI to measure oxygen concentrations at the surface and bottom of the water column.
+
+### Initial oxygen readings
+
+4. Send two group members to the BOD probe station. Insert the BOD probe into the top of the bottle, **turn the stirrer on with the red switch**, wait until the DO readings stabilize (this can take several minutes), and take an initial DO measurement. Record the initial value on your datasheet. Make sure to note the number of your BOD bottle on your datasheet. Turn the switch back off before removing the probe. 
+5. Repeat for your remaining bottles. 
+6. When finished, place the probe into the top of an extra BOD bottle filled with a few centimeters of water. The probe tip needs to be stored in a moist environment. If it is left out in the air, it will be damaged.
+
+### In-situ bottle incubation
+
+7. Place the clear plastic lids firmly on top of the glass stoppers on each bottle. 
+8. Place one of the clear bottles into a 2-layer screen pouch and another clear bottle into the 4-layer screen pouch. Use tarp clips to close the pouches. Make sure to note the bottle numbers corresponding to each screen treatment.
+9. Bring your four bottles (3 clear with 2- and 4- layer screen pouches, 1 dark) and your incubation raft down to the waterfront. Place the bottles on their side in the incubation raft. Walk the raft out from the beach into at least 1 m of water and anchor with a concrete block.
+11. Incubate for at least 5 hours in warmer months and up to 24 hours in the winter.
+
+### Retrieving bottles and final oxygen readings
+
+12. Repeat initial oxygen reading steps. 
+13. Rinse bottles and deployment raft with fresh water.
+14. Retrieve PAR logger and download data.
+
+### Calculations
+
+For each clear bottle, NPP (mg O~2~ l^-1^ h^-1^) is calculated as the difference between final (*DO~t2~*, mg l^-1^) and initial (*DO~t1~*, mg O~2~ l^-1^) dissolved oxygen concentrations divided by incubation time (*t*, h): (DO~t2~ - DO~t1~) / t. We use the same equation to calculate R using dark bottle oxygen concentration changes. GPP is calculated as the difference between NPP and R: GPP = NPP - R.
+
+We then use the light attenuation coefficient, *k~D~*, which is calculated using vertical light profile data, and the proportion of light through the screen (PLS) resulting from each shade treatment to calculate the approximate depth represented by each shade treatment. These approximate "incubation depths" are used to integrate over depth (g O~2~ m^-2^ h^-1^). 
+
+To measure PLS for each shade treatment, we place a LiCOR light sensor into each shade pouch, submerge the sensor + pouch below the water surface, and record PAR. We then remove the pouch and record PAR. PLS is calculated as PAR~shaded~/PAR~unshaded~. The Lambert-Beer equation (I~z~ = I~0~ *e*^-*k~d~z*^) is then rearranged to calculate the approximate depth of each shade, assuming that PLS is equal to I~z~/I~0~:
+
+*ln*(PLS) / *-k~D~* = *z* 
