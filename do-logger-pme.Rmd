@@ -4,80 +4,66 @@ output:
   html_document:
     css: "style.css"
 ---
-### Safety
-**Bursting Hazard:** Should water enter the miniDOT Logger and come into contact with the enclosed batteries, then the batteries may generate gas, causing the internal pressure to increase. This gas will likely exit via the same location where the water entered, but not necessarily. The miniDOT Logger is designed to release internal pressure, as the black end cap is unscrewed, prior to the disengagement of the black end cap threads. If internal pressure is suspected, then treat the miniDOT Logger with extreme caution.
+### Safety: Bursting Hazard
+Should water enter the miniDOT Logger and come into contact with the enclosed batteries, then the batteries may generate gas, causing the internal pressure to increase. This gas will likely exit via the same location where the water entered, but not necessarily. The miniDOT Logger is designed to release internal pressure, as the black end cap is unscrewed, prior to the disengagement of the black end cap threads. If internal pressure is suspected, then treat the miniDOT Logger with extreme caution.
 
 ### Setup and deployment
 
-**Warning:** sensor is located in the center of the black end cap, it is sensitive so do not scratch or touch the sensor during setup, the rubber cap is there to ensure its protection.
+**Warning:** Sensor is located in the center of the black end cap. It is sensitive so do not scratch or touch the sensor during setup, the rubber cap is there to ensure its protection.
 
 **Setup:**
 
-- Open the Logger by unscrewing the white (or clear) pressure housing from the black end cap. It opens like a flashlight. Remove the white (or clear) pressure housing completely
+1. Open the Logger by unscrewing the white (or clear) pressure housing from the black end cap. It opens like a flashlight. Remove the white (or clear) pressure housing completely.
 
-- Move the Logger Control Switch, located on the side opposite of the battery housing, to the “Record” position. The LED will flash green 5 times. The miniDOT Logger will now record a measurement of time, battery voltage, temperature, and dissolved oxygen every 10 minutes (or at some other interval you may have set using the miniDOTControl program). 
+1. Move the Logger Control Switch, located on the side opposite of the battery housing, to the “Record” position. The LED will flash green 5 times. The miniDOT Logger will now record a measurement of time, battery voltage, temperature, and dissolved oxygen every 10 minutes (or at some other interval you may have set using the miniDOTControl program). 
 
-- Replace silica gel drying packets to ensure maximum drying efficiency.
+1. Replace silica gel drying packets to ensure maximum drying efficiency.
 
-- Inspect the O-Ring seal for debris and then reseal the logger in the White (or clear) pressure housing.
+1. Inspect the O-Ring seal for dirt and debris,  then reseal the logger in the white (or clear) pressure housing.
 
-- If removed during the first step while unscrewing the pressure housing, return the rubber black cap to cover the sensor. 
+1. If removed during the first step while unscrewing the pressure housing, return the rubber black cap to cover the sensor. 
 
 **Deployment:**
 
-- Remove rubber black cap
+1. Remove rubber black cap
 
-- Deploy 
+1. Deploy 
+
+1. Did you remove the rubber black cap?
 
 ### Data retrieval and processing
 
-**1: Physical Recovery**
+**Physical Recovery**
 
-- Recover the miniDOT Logger
-- Clean and dry all accessible surfaces except the ‘sensing foil’
-**2: Setup for data retrieval** 
+1. Recover the miniDOT Logger
+1. Clean and dry all accessible surfaces. Do not touch the oxygen sensor.
 
-- create a folder in the google drive data section labeled “MM-DD-YY_DO_logger_data” 
-- create two subfolders within labeled “**CatDat**” and “**RawDat**”
+**Data Retrieval** 
 
-**3: Data Retrieval** 
+1. Open the Logger by unscrewing the white (or clear) pressure housing from the black end cap. Remove the white (or clear) pressure housing completely, taking care that water does not drip onto interior surfaces of circuits or other items inside the Logger. Use a clean paper towel to wipe any water off the pressure housing or end cap thread. Switch the switch from “Record” to “Halt”
 
-**A.** Open the Logger by unscrewing the white (or clear) pressure housing from the black end cap. Remove the white (or clear) pressure housing completely, taking care that water does not drip onto interior surfaces of circuits or other items inside the Logger. Switch the switch from “record” to “Halt”
+1. Connect to a computer via the USB cable. Micro USB connects to the logger and Regular USB connects to the computer. The Logger will appear as a ‘thumb drive’ or ‘D:Drive’. The LED on the logger will turn green.
 
-**B.** Connect to a Windows HOST computer via the USB connection. Micro USB connects to the logger and Regular USB connects to the computer. The Logger will appear as a ‘thumb drive’ or ‘D:Drive’. The LED on the logger will turn green.
+1. Within the Logger’s files there will be 3 programs labeled miniDOTConcatenate, miniDOTControl, and miniDOTPlot. Run miniDOTConcatenate, it may take a second to boot up. It will launch as a JAVA program.
+
+1. Once the Concatenate application is running use the measured salinity (ppt) measured at the deployment site in the box labeled “Salinity (ppt)” (change the default 0.00 to the actual site salinity).
+
+1. Once salinity is entered, select the “concatenate” button. 
+
+1. Once the program is done concatenating, navigate to the D:Drive/external thumb drive folder and open the data file folder.
+
+1. Scroll to the bottom. There should be a file labeled “cat.” Rename the file according to project-specific naming conventions. 
+
+1. Transfer this file to the project-specific shared Google Drive folder. 
 
 
-**C.** Within the Logger’s files there will be 3 programs labeled miniDOTConcatenate, miniDOTControl, and miniDOTPlot. Run miniDOTConcatenate, it may take a second to boot up, it will launch as a JAVA program
+**Disconnection**
 
-**D.** Once the Concatenate application is running use the measured salinity (ppt) measured at the deployment site in the box labeled “Salinity (ppt)” (this will be 0.00 defaultly)
-
-**E.** once salinity is filled in, select the “concatenate” button. 
-F. once the program is done concatenating, in the D:Drive, open the data file
-
-**G.** scroll to the bottom, there should be a file labeled “cat” rename the file with “MM-DD-YY_[Site Location]_[Site salinity (FW or BR)]_DO_[Logger Letter]” 
-
-- Repeat steps **D - F** for as many different salinity sites as recorded
-
-**H.** transfer this file into the “**CatDat**” subfolder in the google drive 
-
-**I.** Then scroll up through the data and find the data for each day the logger was deployed (the date should be at the beginning of each file name as YYYY-MM-DD)
-
-**J.** rename the files corresponding to the days deployed by just adding “_[Logger Letter]” to the end of the file name. 
-
-**K.** Once renamed, move files into the **RawDat** subfolder in the google drive. 
-
-**L.** Double check that all appropriate data has been moved into the google drive, once confirmed, delete all data in the logger file folder. 
-
-**4: Disconnection**
-- Select the arrow in the task bar at the bottom left of the screen labeled “Show hidden icons” 
-
-- select the thumb drive icon
-
-- select “Eject PME miniDOT” (if the Concatenate app is still running it will not let you eject, you must close the app first)
-- unplug the logger
-- Replace silica gel drying packets to ensure maximum drying efficiency.
-- Inspect the O-Ring seal for debris and then reseal the logger in the White (or clear) pressure housing.
-- If removed during the step while unscrewing the pressure housing, return the rubber black cap to the logger
-- Store safely 
+1. For windows computers, select the arrow in the task bar at the bottom left of the screen labeled “Show hidden icons.” Select the thumb drive icon. For Apple computers, right click the thumb drive in Finder. 
+1. Select “Eject PME miniDOT” (if the Concatenate app is still running it will not let you eject, you must close the app first).
+1. Unplug the logger
+1. Inspect the O-Ring seal for debris and then reseal the logger in the White (or clear) pressure housing.
+1. If removed during the step while unscrewing the pressure housing, return the rubber black cap to the logger
+1. Store safely 
 
 

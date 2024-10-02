@@ -252,7 +252,87 @@ if (window.hljs) {
 
 
 
-<style type="text/css">p.caption {color: #777;margin-top: 10px;}p code {white-space: inherit;}pre {word-break: normal;word-wrap: normal;}pre code {white-space: inherit;}.summary > li:first-child {height: 50px;padding-top: 10px;border-bottom: 1px solid rgba(0,0,0,.07);}.book .book-summary ul.summary li.divider {height: 0px;}.toc-logo {width: 190px !important;object-fit: contain;margin: 0 auto;}.toc-logo img {max-width: 100%;margin-bottom: 10px;}.summary > li:first-child {height: auto !important;}.book.with-summary .book-header.fixed {left: 200px;}.book.with-summary .book-body {left: 200px;}.book .book-summary {width: 200px;}.book .book-summary {background: #F3F1E7 ;border-right: none;}.summary a:hover {color: #D9DA9E !important;}.book .book-summary ul.summary li.active>a { color: #A59F6D !important;border-left: solid 4px;border-color: #4379E1;padding-left: 11px !important;}.book .book-body .page-wrapper .page-inner section.normal a {color: #4379E1;}.book .book-body .page-wrapper .page-inner section.normal a:hover {color: #D9DA9E; text-decoration: none;}.book.font-family-1 {color: #474747;}h1, h2, h3, h4 {color: #4379E1;}.title {font-size: 3em !important;color: #4379E1;}.subtitle {color: #A59F6D;}</style>
+<style type="text/css">p.caption {
+color: #777;
+margin-top: 10px;
+}
+p code {
+white-space: inherit;
+}
+pre {
+word-break: normal;
+word-wrap: normal;
+}
+pre code {
+white-space: inherit;
+}
+
+.summary > li:first-child {
+height: 50px;
+padding-top: 10px;
+border-bottom: 1px solid rgba(0,0,0,.07);
+}
+.book .book-summary ul.summary li.divider {
+height: 0px;
+}
+
+.toc-logo {
+width: 190px !important;
+object-fit: contain;
+margin: 0 auto;
+}
+.toc-logo img {
+max-width: 100%;
+margin-bottom: 10px;
+}
+.summary > li:first-child {
+height: auto !important;
+}
+.book.with-summary .book-header.fixed {
+left: 200px;
+}
+.book.with-summary .book-body {
+left: 200px;
+}
+.book .book-summary {
+width: 200px;
+}
+
+.book .book-summary {
+background: #F3F1E7 ;
+border-right: none;
+}
+.summary a:hover {
+color: #D9DA9E !important;
+}
+.book .book-summary ul.summary li.active>a { 
+color: #A59F6D !important;
+border-left: solid 4px;
+border-color: #4379E1;
+padding-left: 11px !important;
+}
+
+.book .book-body .page-wrapper .page-inner section.normal a {
+color: #4379E1;
+}
+.book .book-body .page-wrapper .page-inner section.normal a:hover {
+color: #D9DA9E; 
+text-decoration: none;
+}
+.book.font-family-1 {
+color: #474747;
+}
+h1, h2, h3, h4 {
+color: #4379E1;
+}
+.title {
+font-size: 3em !important;
+color: #4379E1;
+}
+.subtitle {
+color: #A59F6D;
+}
+</style>
 
 
 
@@ -354,27 +434,27 @@ display: none;
 </div>
 
 
-<div id="safety" class="section level3">
-<h3>Safety</h3>
-<p><strong>Bursting Hazard:</strong> Should water enter the miniDOT
-Logger and come into contact with the enclosed batteries, then the
-batteries may generate gas, causing the internal pressure to increase.
-This gas will likely exit via the same location where the water entered,
-but not necessarily. The miniDOT Logger is designed to release internal
-pressure, as the black end cap is unscrewed, prior to the disengagement
-of the black end cap threads. If internal pressure is suspected, then
-treat the miniDOT Logger with extreme caution.</p>
+<div id="safety-bursting-hazard" class="section level3">
+<h3>Safety: Bursting Hazard</h3>
+<p>Should water enter the miniDOT Logger and come into contact with the
+enclosed batteries, then the batteries may generate gas, causing the
+internal pressure to increase. This gas will likely exit via the same
+location where the water entered, but not necessarily. The miniDOT
+Logger is designed to release internal pressure, as the black end cap is
+unscrewed, prior to the disengagement of the black end cap threads. If
+internal pressure is suspected, then treat the miniDOT Logger with
+extreme caution.</p>
 </div>
 <div id="setup-and-deployment" class="section level3">
 <h3>Setup and deployment</h3>
-<p><strong>Warning:</strong> sensor is located in the center of the
-black end cap, it is sensitive so do not scratch or touch the sensor
+<p><strong>Warning:</strong> Sensor is located in the center of the
+black end cap. It is sensitive so do not scratch or touch the sensor
 during setup, the rubber cap is there to ensure its protection.</p>
 <p><strong>Setup:</strong></p>
-<ul>
+<ol style="list-style-type: decimal">
 <li><p>Open the Logger by unscrewing the white (or clear) pressure
 housing from the black end cap. It opens like a flashlight. Remove the
-white (or clear) pressure housing completely</p></li>
+white (or clear) pressure housing completely.</p></li>
 <li><p>Move the Logger Control Switch, located on the side opposite of
 the battery housing, to the “Record” position. The LED will flash green
 5 times. The miniDOT Logger will now record a measurement of time,
@@ -383,85 +463,72 @@ at some other interval you may have set using the miniDOTControl
 program).</p></li>
 <li><p>Replace silica gel drying packets to ensure maximum drying
 efficiency.</p></li>
-<li><p>Inspect the O-Ring seal for debris and then reseal the logger in
-the White (or clear) pressure housing.</p></li>
+<li><p>Inspect the O-Ring seal for dirt and debris, then reseal the
+logger in the white (or clear) pressure housing.</p></li>
 <li><p>If removed during the first step while unscrewing the pressure
 housing, return the rubber black cap to cover the sensor.</p></li>
-</ul>
+</ol>
 <p><strong>Deployment:</strong></p>
-<ul>
+<ol style="list-style-type: decimal">
 <li><p>Remove rubber black cap</p></li>
 <li><p>Deploy</p></li>
-</ul>
+<li><p>Did you remove the rubber black cap?</p></li>
+</ol>
 </div>
 <div id="data-retrieval-and-processing" class="section level3">
 <h3>Data retrieval and processing</h3>
-<p><strong>1: Physical Recovery</strong></p>
-<ul>
-<li><p>Recover the miniDOT Logger</p></li>
-<li><p>Clean and dry all accessible surfaces except the ‘sensing foil’
-<strong>2: Setup for data retrieval</strong></p></li>
-<li><p>create a folder in the google drive data section labeled
-“MM-DD-YY_DO_logger_data”</p></li>
-<li><p>create two subfolders within labeled “<strong>CatDat</strong>”
-and “<strong>RawDat</strong>”</p></li>
-</ul>
-<p><strong>3: Data Retrieval</strong></p>
-<p><strong>A.</strong> Open the Logger by unscrewing the white (or
-clear) pressure housing from the black end cap. Remove the white (or
-clear) pressure housing completely, taking care that water does not drip
-onto interior surfaces of circuits or other items inside the Logger.
-Switch the switch from “record” to “Halt”</p>
-<p><strong>B.</strong> Connect to a Windows HOST computer via the USB
-connection. Micro USB connects to the logger and Regular USB connects to
-the computer. The Logger will appear as a ‘thumb drive’ or ‘D:Drive’.
-The LED on the logger will turn green.</p>
-<p><strong>C.</strong> Within the Logger’s files there will be 3
-programs labeled miniDOTConcatenate, miniDOTControl, and miniDOTPlot.
-Run miniDOTConcatenate, it may take a second to boot up, it will launch
-as a JAVA program</p>
-<p><strong>D.</strong> Once the Concatenate application is running use
-the measured salinity (ppt) measured at the deployment site in the box
-labeled “Salinity (ppt)” (this will be 0.00 defaultly)</p>
-<p><strong>E.</strong> once salinity is filled in, select the
-“concatenate” button. F. once the program is done concatenating, in the
-D:Drive, open the data file</p>
-<p><strong>G.</strong> scroll to the bottom, there should be a file
-labeled “cat” rename the file with “MM-DD-YY_[Site Location]_[Site
-salinity (FW or BR)]<em>DO</em>[Logger Letter]”</p>
-<ul>
-<li>Repeat steps <strong>D - F</strong> for as many different salinity
-sites as recorded</li>
-</ul>
-<p><strong>H.</strong> transfer this file into the
-“<strong>CatDat</strong>” subfolder in the google drive</p>
-<p><strong>I.</strong> Then scroll up through the data and find the data
-for each day the logger was deployed (the date should be at the
-beginning of each file name as YYYY-MM-DD)</p>
-<p><strong>J.</strong> rename the files corresponding to the days
-deployed by just adding “_[Logger Letter]” to the end of the file
-name.</p>
-<p><strong>K.</strong> Once renamed, move files into the
-<strong>RawDat</strong> subfolder in the google drive.</p>
-<p><strong>L.</strong> Double check that all appropriate data has been
-moved into the google drive, once confirmed, delete all data in the
-logger file folder.</p>
-<p><strong>4: Disconnection</strong> - Select the arrow in the task bar
-at the bottom left of the screen labeled “Show hidden icons”</p>
-<ul>
-<li><p>select the thumb drive icon</p></li>
-<li><p>select “Eject PME miniDOT” (if the Concatenate app is still
-running it will not let you eject, you must close the app
-first)</p></li>
-<li><p>unplug the logger</p></li>
-<li><p>Replace silica gel drying packets to ensure maximum drying
-efficiency.</p></li>
-<li><p>Inspect the O-Ring seal for debris and then reseal the logger in
-the White (or clear) pressure housing.</p></li>
-<li><p>If removed during the step while unscrewing the pressure housing,
-return the rubber black cap to the logger</p></li>
-<li><p>Store safely</p></li>
-</ul>
+<p><strong>Physical Recovery</strong></p>
+<ol style="list-style-type: decimal">
+<li>Recover the miniDOT Logger</li>
+<li>Clean and dry all accessible surfaces. Do not touch the oxygen
+sensor.</li>
+</ol>
+<p><strong>Data Retrieval</strong></p>
+<ol style="list-style-type: decimal">
+<li><p>Open the Logger by unscrewing the white (or clear) pressure
+housing from the black end cap. Remove the white (or clear) pressure
+housing completely, taking care that water does not drip onto interior
+surfaces of circuits or other items inside the Logger. Use a clean paper
+towel to wipe any water off the pressure housing or end cap thread.
+Switch the switch from “Record” to “Halt”</p></li>
+<li><p>Connect to a computer via the USB cable. Micro USB connects to
+the logger and Regular USB connects to the computer. The Logger will
+appear as a ‘thumb drive’ or ‘D:Drive’. The LED on the logger will turn
+green.</p></li>
+<li><p>Within the Logger’s files there will be 3 programs labeled
+miniDOTConcatenate, miniDOTControl, and miniDOTPlot. Run
+miniDOTConcatenate, it may take a second to boot up. It will launch as a
+JAVA program.</p></li>
+<li><p>Once the Concatenate application is running use the measured
+salinity (ppt) measured at the deployment site in the box labeled
+“Salinity (ppt)” (change the default 0.00 to the actual site
+salinity).</p></li>
+<li><p>Once salinity is entered, select the “concatenate”
+button.</p></li>
+<li><p>Once the program is done concatenating, navigate to the
+D:Drive/external thumb drive folder and open the data file
+folder.</p></li>
+<li><p>Scroll to the bottom. There should be a file labeled “cat.”
+Rename the file according to project-specific naming
+conventions.</p></li>
+<li><p>Transfer this file to the project-specific shared Google Drive
+folder.</p></li>
+</ol>
+<p><strong>Disconnection</strong></p>
+<ol style="list-style-type: decimal">
+<li>For windows computers, select the arrow in the task bar at the
+bottom left of the screen labeled “Show hidden icons.” Select the thumb
+drive icon. For Apple computers, right click the thumb drive in
+Finder.</li>
+<li>Select “Eject PME miniDOT” (if the Concatenate app is still running
+it will not let you eject, you must close the app first).</li>
+<li>Unplug the logger</li>
+<li>Inspect the O-Ring seal for debris and then reseal the logger in the
+White (or clear) pressure housing.</li>
+<li>If removed during the step while unscrewing the pressure housing,
+return the rubber black cap to the logger</li>
+<li>Store safely</li>
+</ol>
 </div>
 
 
