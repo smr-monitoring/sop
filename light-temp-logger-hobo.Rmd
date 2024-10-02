@@ -3,8 +3,6 @@ title: "Onset HOBO MX2202 light/temperature logger"
 output: 
   html_document:
     css: "style.css"
-    includes:
-      in_header: "favicon.ico"
 ---
 
 ### Supplies

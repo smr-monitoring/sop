@@ -3,7 +3,6 @@ title: "Onset HOBO MX2501 pH logger"
 output: 
   html_document:
     css: "style.css"
-favicon: "img/favicon-32x32.png"
 ---
 
 ### Warning: Do not let pH sensor dry
