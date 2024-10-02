@@ -3,60 +3,66 @@ title: "Onset HOBO MX2202 light/temperature logger"
 output: 
   html_document:
     css: "style.css"
+    includes:
+      in_header: "favicon.ico"
 ---
+
 ### Supplies
 
 - HOBO Pendant MX Temperature/Light Data Logger
-
 - Smartphone with HOBOconnect and HOBOmobile apps installed (both free, HOBOconnect requires an account to be made)
-
 - Deionized water
-
 - Zip ties
+
+### Resources
 
 [HOBO Temperature/Light Data Logger manual
 ](https://manuals.plus/hobo/pendant-mx-temp-mx2201-and-templight-mx2202-data-logger-manual.pdf)
-
-This logger does not need to be calibrated before deployment, but you may wish to wipe the pendant’s sensor 15-20 minutes before retrieving it from its site. This allows the sensor to record at least one instant light reading, which can indicate the degree that fouling has impacted the collected data. 
 
 ### Programming the Logger
 
 1. Open the HOBOconnect app on your smartphone. To connect the logger with the app, firmly press the center of the light logger pendant, which you should feel click and see a small red light flash. The pendant’s serial number (SN) should appear on the screen.
 
-2. Select the logger, and if not already done, stop the logger.
+1. Select the logger, and if not already done, stop the logger.
 
-3. Select “configure,” and enter the date and time you wish to deploy the logger. Select “save changes” before finishing. 
+1. Select “configure,” and enter the start date and time, and sampling interval. Select “save changes.” 
 
-4. Select “start logging,” which will still delay deployment until the designated time.
+1. Select “start logging,” which will still delay deployment until the designated time.
 
 ### Deploying the Logger
 
-**General deployment advice:**
+**General deployment advice**
 
-- The pendant should be attached to a solid surface or frame (such as a cage) rather than suspended from a line.
+- The pendant should be attached to a solid surface or frame (such as a cage) rather than suspended from a line. It should be level and clear of any objects that could cast shade on the light sensor.
 
 - Even if logging out-of-water temperature and light, secure the logger to something solid. Never leave the logger somewhere easily knocked into water or damaged. 
 
 - If the logger is deployed in a shadowed area, such as beneath/alongside a dock, ensure that factor is accounted for when interpreting data. If other loggers are deployed in an area receiving full sunlight all day, a light logger deployed in a half-sun area may not be appropriate. 
 
-**To deploy logger:**
+**Deploying the logger**
+- Open the logger and inspect the o-ring and surroundig plastic housing for dirt and debris. If necessary, use a lint-free alcohol wipe to clean these surfaces and lubricate the o-ring with silicone grease.
 
-- Using zip ties, secure the logger to a sturdy location.
+- Using zip ties, secure the logger to a sturdy, level, surface, object, etc.
 
 - Make sure the surface of the logger is clean to avoid inaccurate light measurements. 
 
 ### Post-processing and Offloading Data
 
-**To offload data:**
+**Downloading data**
 
-1. Open HOBOmobile, and connect the logger to your smartphone as described in the first section. Stop the logger.
+1. Open HOBO Connect, and connect the logger to your smartphone as described in the first section. Stop the logger.
 
 2. Select “device readout”. Once readout is complete, the information will be saved in data files, and you may close the connection. 
 
-3. Select the most recent data file, and export as a CSV file to the shared google drive. 
+3. Select the most recent data file, and export as a CSV file to the project-specific shared Google Drive.
 
-**To store device:**
+4. Change the file name in Google Drive using project-specific naming conventions.
+
+**Device storage**
+
 1. Gently scrub away any fouling with a soft bristled brush, and wipe the sensor clean with a sponge. If barnacles have begun to form on the logger’s body, ensure the logger is tightly sealed (as for deployment) before soaking in vinegar overnight. Fouling should scrub away easily the next day. 
 
 2. Rinse with deionized water, and allow to dry before storing. 
 
+<br />
+<br />
