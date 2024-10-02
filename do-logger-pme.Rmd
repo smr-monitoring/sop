@@ -3,6 +3,7 @@ title: "PME MiniDOT logger"
 output: 
   html_document:
     css: "style.css"
+favicon: "img/favicon-32x32.png"
 ---
 ### Safety: Bursting Hazard
 Should water enter the miniDOT Logger and come into contact with the enclosed batteries, then the batteries may generate gas, causing the internal pressure to increase. This gas will likely exit via the same location where the water entered, but not necessarily. The miniDOT Logger is designed to release internal pressure, as the black end cap is unscrewed, prior to the disengagement of the black end cap threads. If internal pressure is suspected, then treat the miniDOT Logger with extreme caution.
