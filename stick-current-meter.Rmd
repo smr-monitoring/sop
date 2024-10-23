@@ -1,0 +1,60 @@
+---
+title: "Lowell Instruments TCM-1 and TCM-3 current meters"
+output: 
+  html_document:
+    css: "style.css"
+---
+
+
+### Supplies
+
+* TCM-1 or TCM-3 Current Meter
+* Laptop with Domino software installed
+* USB A to micro-B cable
+* Concrete patio block for deployment
+* [TCM Universal User Guide](https://www.lowellinstruments.com/download_files/Universal_User_Guide.pdf?_gl=1*1i1dnlm*_ga*OTg5NzE1Mjg1LjE2NTc1NjI5MzQ.*_ga_9FKGPKLK1F*MTY1NzU2MjkzMy4xLjAuMTY1NzU2MjkzMy4w&_ga=2.222251608.1506740040.1657562934-989715285.1657562934)
+
+The TCM Data Logger measures absolute orientation in the water (tilt), acceleration of water, and temperature. The acronym stands for the logger’s three main sensors: Magnetometer, Accelerometer, and Thermistor. This logger is often referred to as a “stick meter” or “current meter.” The TCM Data Logger does not need to be calibrated before deployment. 
+
+### Connecting the Logger to a Computer
+
+1. Use a USB A to micro-B cable to connect the logger to the computer. This cable will be in the batteries/data loggers/chargers drawer, or in the plastic bin with the HOBO logger tools. 
+1. Unscrew the pointed cap on the communications end of the logger. Gently insert the micro-b end of the cable into the port inside the logger. Do not scrape the metal against the electronics behind the port, and do not bend the port to the side. 
+1. Insert the cable’s opposite end into the computer’s USB port. If the logger has never been connected to the computer before, it may take a few seconds for the new hardware to be detected by the computer. If the computer still does not recognize the device, unplug the cable from the computer’s USB port, and plug in again.
+After logger communications are complete, remove the cable from the logger. 
+
+
+### Configuring the Logger
+
+1. The logger needs to be configured and launched before taking it to the field for deployment. With the logger connected to the computer, open Domino. Select the device menu to see if the logger is being detected, and if it has already been stopped. If yes, return to the Setup menu. If not, stop the logger, and offload the data according to later instructions.
+1. Select a sampling interval for temperature, accelerometer, and magnetometer. Choose a starting date and time.
+1. Select “Save File,” and replace the existing file on the logger. This will set the logger to run with your new specifications.
+1. Select “Start Running,” and gently remove the micro-b from the logger’s port. This may require some wiggling, so be careful not to bend the mechanisms inside the logger. The portion holding the SD card may slide out a small amount. Use one finger to carefully push the structure back inside, until just below the grooves which hold the cap in place. Do not force the structure further inside, as this may break the plastic. If the SD card clicks and comes out of its holder, simply push the card back into place until it clicks and stays.  
+1. Screw the communications cap back onto the logger, and remove the cable from the computer’s USB port. 
+
+### Deploying the Logger
+
+Follow sections 3.3 and 3.4 in the [TCM manual](https://www.lowellinstruments.com/download_files/Universal_User_Guide.pdf?_gl=1*1i1dnlm*_ga*OTg5NzE1Mjg1LjE2NTc1NjI5MzQ.*_ga_9FKGPKLK1F*MTY1NzU2MjkzMy4xLjAuMTY1NzU2MjkzMy4w&_ga=2.222251608.1506740040.1657562934-989715285.1657562934) for specific anchoring instructions. 
+
+The following are some general guidelines.
+
+1. Check that the communications cap is snug on the logger’s end before deploying. 1. Make sure the logger is located where it will receive an unrestricted flow of the water being monitored to the sensor. This logger needs freedom of movement in all directions to measure tilt, so it should be secured to a line rather than inside a protective cage. 
+1. Ensure the logger is fully submerged.
+1. When deploying the logger in rivers, streams, and ponds, insert the logger in a PVC or ABS pipe for protection from debris (if possible). The pipe should have enough holes to ensure good circulation of water to the sensor.
+1. Do not deploy the logger in freezing water with moving ice where the logger could be crushed.
+1. If fouling is expected during deployment, use YSI field calibration readings from both the beginning and end of the deployment as described in the next section. These readings can be used to compensate for any measurement drift due to fouling. Scrub fouling off the logger with a plastic bristle brush.
+
+
+### Post-processing and Offloading Data
+
+1. To offload and process data:
+
+* Connect the logger to the computer as described in the first section. Stop the logger.
+* Open the Convert menu, and select “Add File”. The files will be available under MAT_LOGGER (D:). 
+* Select the file, and check that output will be saved to the desired location. * Press “Convert” once the file appears in the main window. 
+* Once conversion is complete, exit Domino, and open the computer’s Start menu. If you have saved the file to the computer, upload the file to the shared Google Drive. 
+* Detach the cable from both the computer’s USB port and the logger. Screw the communications cap firmly back onto the logger. 
+* Thoroughly rinse the logger with fresh water. Scrub away any fouling from the logger’s body using a soft-bristled brush. If barnacles have begun to form, ensure the logger is tightly sealed (as for deployment) before soaking in vinegar overnight. Fouling should scrub away easily the next day. Rinse again with fresh water, and allow it to dry before storing.
+
+<br />
+<br />
